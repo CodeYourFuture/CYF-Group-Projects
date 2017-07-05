@@ -2,7 +2,7 @@
 
 You work in a small, creative web development agency that has been hired to create a new website for the Luigi, an Italian restaurant. The project manager and the designer on you team have worked together to create a design mockup of the site. The client has signed off and now it's your job to turn the design into a website using HTML, CSS and JavaScript.
 
-![Screenshot of final product](assets/screenshot.png)
+![Screenshot of final product](screenshot.png)
 
 ## First Steps
 
