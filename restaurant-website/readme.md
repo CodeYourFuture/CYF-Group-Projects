@@ -6,15 +6,15 @@ You work in a small, creative web development agency that has been hired to crea
 
 ## First Steps
 
-1. Look over the [design mockups](mockups) and [resources](resources) to see if you have all the information you need to build the website. As for any information or resources you're missing to do your job.
-2. Discuss how the project can be divided up, and assign responsibilities.
-3. Read the rest of this document before beginning work.
+1. Look over the [design mockups](mockups) and [resources](resources) to see if you have all the information you need to build the website. Ask for any information or resources you're missing to do your job.
+2. Discuss how the project can be divided up into separate tasks and assign responsibilities.
+3. Read the rest of this document before beginning.
 
 ## Final Product
 
 When you complete the project, we'll expect the following:
 
-1. A new git repository with three pages that we can browse between: the homepage, menu and reservations pages. All students in the group should have contributed to this repository via Pull Requests.
+1. A new git repository with three pages that we can browse between: the homepage, menu and reservations. All students in the group should have contributed to this repository via Pull Requests.
 2. A responsive design that is easy to use on mobile phones, tablets and laptops.
 3. Attention to detail when implementing the designer's typography, colors, layout and photos. (See the [style guide](mockups/style-guide.png))
 4. Clean, semantic HTML code.
