@@ -1,12 +1,12 @@
 # Luigi - Build a Restaurant Website
 
-You work in a small, creative web development agency that has been hired to create a new website for the Luigi, an Italian restaurant. The project manager and the designer on you team have worked together to create a design mockup of the site. The client has signed off and now it's your job to turn the design into a website using HTML, CSS and JavaScript.
+You work in a small, creative web development agency that has been hired to create a new website for Luigi, an Italian restaurant. The project manager and the designer on your team have worked together to create a design mockup of the site. The client has signed off and now it's your job to turn the design into a website using HTML, CSS and JavaScript.
 
 ![Screenshot of final product](screenshot.png)
 
 ## First Steps
 
-1. Look over the [design mockups](mockups) and [resources](resources) to see if you have all the information you need to build the website. If you're missing anything, or the design mockups are unclear about anything, ask for it.
+1. Look over the [design mockups](mockups) and [resources](resources) to see if you have all the information you need to build the website. As for any information or resources you're missing to do your job.
 2. Discuss how the project can be divided up, and assign responsibilities.
 3. Read the rest of this document before beginning work.
 
