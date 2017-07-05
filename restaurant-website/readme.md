@@ -6,7 +6,7 @@ You work in a small, creative web development agency that has been hired to crea
 
 ## First Steps
 
-1. Look over the [design mockups](mockups) to see if you have all the information you need to build the website. If you're missing anything, or the design mockups are unclear about anything, ask for it.
+1. Look over the [design mockups](mockups) and [resources](resources) to see if you have all the information you need to build the website. If you're missing anything, or the design mockups are unclear about anything, ask for it.
 2. Discuss how the project can be divided up, and assign responsibilities.
 3. Read the rest of this document before beginning work.
 
