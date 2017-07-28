@@ -42,6 +42,7 @@ These projects can be completed without waiting for students to learn about Node
 
 - [Restaurant Website](restaurant-website/readme.md) - Implement a design mockup in HTML/CSS.
 - [Luxury Vehicles Website](luxury-vehicles-website/readme.md) - Implement a design mockup in HTML/CSS.
+- [Fashion Website](fashion-website/readme.md) - Implement a design mockup in HTML/CSS.
 
 ## License
 
