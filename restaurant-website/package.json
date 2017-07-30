@@ -1,0 +1,24 @@
+{
+  "name": "restaurant-website",
+  "version": "1.0.0",
+  "description": "You work in a small, creative web development agency that has been hired to create a new website for Luigi, an Italian restaurant. The project manager and the designer on your team have worked together to create a design mockup of the site. The client has signed off and now it's your job to turn the design into a website using HTML, CSS and JavaScript.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panditita/group-projects.git"
+  },
+  "author": "Etzali, Habiiba and Nasir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/panditita/group-projects/issues"
+  },
+  "homepage": "https://github.com/panditita/group-projects#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "get-dependencies": "^1.1.0",
+    "handlebars": "^4.0.10"
+  }
+}
