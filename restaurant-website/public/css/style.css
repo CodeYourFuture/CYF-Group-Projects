@@ -1,0 +1,40 @@
+
+
+body{
+    background-color: #ffffff;
+}
+h1{
+    color: #242424;
+}
+
+.icon{
+   padding: .25rem .25rem .25rem .25rem;
+}
+
+.menu_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.logo_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.navbar-brand {
+    float: left;
+    height: auto;
+    padding: .25rem .25rem .25rem .25rem;
+    display: flex;
+}
+
+.phone{
+    align-self: flex-start;
+    align-items: center;
+}
