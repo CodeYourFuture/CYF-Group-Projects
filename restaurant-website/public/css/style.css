@@ -1,5 +1,6 @@
 body{
     background-color: #ffffff;
+    font-family: "Open Sans";
 }
 
 h1{
@@ -16,6 +17,7 @@ h1{
     flex-wrap: wrap;
     align-items: center;
     background-color: #ffffff;
+    font-size: 18px;
 }
 
 .logo_container{
@@ -32,8 +34,22 @@ h1{
     padding: .25rem .25rem .25rem .25rem;
     display: flex;
 }
-
-.phone{
-    align-self: flex-start;
-    align-items: center;
+.dropdown-menu{
+    background-color: #ffffff;
 }
+.fa-phone{
+  color: #9a8f45;
+}
+.phone, .phone:visited, .phone:active{
+    color: #242424;
+    text-decoration: none;
+}
+
+.phone:hover{
+    color: #9a8f45;
+    text-decoration: none;
+}
+h6{
+    color: #242424
+    
+};
