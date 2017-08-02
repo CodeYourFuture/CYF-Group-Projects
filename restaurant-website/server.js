@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const exphbs = require('express-handlebars');
 const fs = require("fs");
-const readPosts = require("./helpers/readPosts")
+//const readPosts = require("./helpers/readPosts")
 
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
@@ -21,7 +21,7 @@ app.use(express.static("public", { 'extensions': ['html'] }));
 
 }); */
 
-app.get('/my-cv', function (req, res) {
+/* app.get('/my-cv', function (req, res) {
   res.render("my-cv", {
     //title: 'Etzalis Profile', // insert your name instead 
     subheading: "updated cv",
@@ -69,10 +69,17 @@ app.get('/', function (req, res) {
       });
   };
   fs.readFile(filePath, callbackFunction);
+}); */
+
+
+
+app.get('/', function (req, res) {
+  res.render("index", {
+    title: 'Index', // insert your name instead 
+    subheading: "updates on admin work"
+
+  });
 });
-
-
-
 // what does this line mean: process.env.PORT || 3000
 app.listen(process.env.PORT || 3000, function () {
   console.log("Server is listening on port 3000. Ready to accept requests!");
