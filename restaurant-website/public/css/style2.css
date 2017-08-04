@@ -1,9 +1,14 @@
-.flex-container {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: column-reverse;
-    flex-direction: column-reverse;
-    width: 400px;
-    height: 250px;
-    background-color: lightgrey;
+
+img.logotype{
+    width:25%;
 }
+.social-midia{
+    display: flex;
+    flex-direction: row;
+}
+
+.copyright{
+    display: flex;
+    justify-content: flex-end;
+}
+
