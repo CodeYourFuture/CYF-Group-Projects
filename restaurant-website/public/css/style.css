@@ -87,7 +87,7 @@ ul.nav.navbar-nav {
     height: 30px;
 }
 
-.fa-square-o:hover{
+.fa-square-o:hover, .fa-square-o:focus{
     color: #ffffff;
     border-radius: 0;
     border: 1px solid #9a8f45;
