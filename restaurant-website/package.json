@@ -19,7 +19,9 @@
   "homepage": "https://github.com/panditita/group-projects#readme",
   "dependencies": {
     "express": "^4.15.3",
-    "express-handlebars": "^3.0.0"
+    "express-handlebars": "^3.0.0",
+    "get-dependencies": "^1.1.0",
+    "handlebars": "^4.0.10",
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
