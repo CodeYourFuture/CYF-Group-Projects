@@ -67,7 +67,6 @@ app.get('/', function (req, res) {
 //   };
 //   fs.readFile(filePath, callbackFunction);
 // });
-=======
 /* app.get('/', function (req, res) {
   res.render("index", {
     title: 'Etzali Hernández', // insert your name instead 
@@ -131,11 +130,32 @@ app.get('/', function (req, res) {
 
 app.get('/', function (req, res) {
   res.render("index", {
-    title: 'Index', // insert your name instead 
-    subheading: "updates on admin work"
-
   });
 });
+
+app.get('/contact', function (req, res) {
+  res.render("index", {
+  });
+});
+
+app.get('/story', function (req, res) {
+  res.render("index", {
+  });
+});
+
+
+app.get('/reservation', function (req, res) {
+  res.render("reservations", {
+  });
+});
+
+app.get('/menu', function (req, res) {
+  res.render("food-menu", {
+  });
+});
+
+
+
 // what does this line mean: process.env.PORT || 3000
 app.listen(process.env.PORT || 3000, function () {
   console.log("Server is listening on port 3000. Ready to accept requests!");
