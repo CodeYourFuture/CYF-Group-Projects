@@ -56,3 +56,10 @@ background-color: #242424;
 
 }
 
+.container-fluid{
+    background: #ffffff;
+}
+
+.container-food{
+    margin: 10rem;
+}
