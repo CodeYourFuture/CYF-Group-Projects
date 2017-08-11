@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Goat's cheese parcel",
+        "description": "Organic, free-range goat's cheese parcel on a yoghurt and mint sauce",
+        "image": "../public/img/blake-wisz-287924.jpg",
+        "cost": "7.99",
+        "icons": [],
+        "type": "starter"
+    },
+    {
+        "title": "LEEKS VINAIGRETTE WITH SAUCE GRIBICHE",
+        "description": "Organic, free-range goat's cheese parcel on a yoghurt and mint sauce",
+        "image": "../public/img/cel-lisboa-60315.jpg",
+        "cost": "5.99",
+        "icons": [],
+        "type": "starter"
+    },
+    {
+        "title": "MORELS WITH ASPARAGUS",
+        "description": "Organic, free-range goat's cheese parcel on a yoghurt and mint sauce",
+        "image": "../public/img/chinh-le-duc-268611.jpg",
+        "cost": "6.99",
+        "icons": [],
+        "type": "starter"
+    },
+    {
+        "title": "Baked Haddock",
+        "description": "Organic, free-range goat's cheese parcel on a yoghurt and mint sauce",
+        "image": "../public/img/davide-cantelli-148407.jpg",
+        "cost": "16.99",
+        "icons": [],
+        "type": "entree"
+    },
+    {
+        "title": "CRISPY CHICKEN AND EDAMAME",
+        "description": "Fried chicken piece and crunche browned cauliflower atop alight cream soup",
+        "image": "../public/img/cel-lisboa-60314.jpg",
+        "cost": "12.99",
+        "icons": [],
+        "type": "entree"
+    },
+    {
+        "title": "SPRING FARRO RISOTTO WITH FAVA BEANS",
+        "description": "Organic, free-range goat's cheese parcel on a yoghurt and mint sauce",
+        "image": "../public/img/alex-munsell-18753.jpg",
+        "cost": "15.99",
+        "icons": [],
+        "type": "entree"
+    }
+]
