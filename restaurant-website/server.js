@@ -39,6 +39,22 @@ app.get('/menu', function (req, res) {
   res.render("food", {
   });
 });
+app.get('/menu', function (req, res) {
+  const filePath = __dirname + '/data/menu.json';
+  const callbackFunction = function (error, file) {
+    // we call .toString() to turn the file buffer to a String 
+    const fileData = file.toString();
+    // we use JSON.parse to get an object out the String 
+    const postsJson = JSON.parse(fileData).reverse();
+    // send the json to the Template to render 
+    console.log(postsJson);
+    res.render('food',
+      {
+       postsJson
+      });
+  };
+  fs.readFile(filePath, callbackFunction);
+});
 
 
 // what does this line mean: process.env.PORT || 3000
