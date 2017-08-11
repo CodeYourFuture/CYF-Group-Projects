@@ -81,7 +81,7 @@ app.get('/', function (req, res) {
   });
 });
 app.get("/menu", function (req, res) {
-  res.render("menu");
+  res.render("food");
 })
 // what does this line mean: process.env.PORT || 3000
 app.listen(process.env.PORT || 3000, function () {
