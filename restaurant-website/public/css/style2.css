@@ -62,4 +62,13 @@ background-color: #242424;
 
 .container-food{
     margin: 10rem;
+    display: flex;
+    flex-flow:  row wrap;
+    justify-content: flex-start;
+
+}
+
+.main-course{
+    display: flex;
+    align-self: flex-end;
 }
