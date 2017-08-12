@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const exphbs = require('express-handlebars');
 const fs = require("fs");
-// const readPosts = require("./helpers/readPosts")
+const menuData = require("./data/menu");
 
 
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
@@ -35,25 +35,12 @@ app.get('/reservation', function (req, res) {
   });
 });
 
+
 app.get('/menu', function (req, res) {
-  res.render("food", {
-  });
-});
-app.get('/menu', function (req, res) {
-  const filePath = __dirname + '/data/menu.json';
-  const callbackFunction = function (error, file) {
-    // we call .toString() to turn the file buffer to a String 
-    const fileData = file.toString();
-    // we use JSON.parse to get an object out the String 
-    const postsJson = JSON.parse(fileData).reverse();
-    // send the json to the Template to render 
-    console.log(postsJson);
-    res.render('food',
+  res.render('food',
       {
-       postsJson
+       menu: menuData
       });
-  };
-  fs.readFile(filePath, callbackFunction);
 });
 
 app.get("/api/posts", function (req, res) {
