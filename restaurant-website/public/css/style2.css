@@ -60,7 +60,7 @@ background-color: #242424;
     background: #ffffff;
 }
 
-.container-food{
+.main-container{
     margin: 10rem;
     display: flex;
     flex-flow:  row wrap;
