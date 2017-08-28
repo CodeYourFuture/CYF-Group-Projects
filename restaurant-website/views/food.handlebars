@@ -1,58 +1,84 @@
 <div class="container-fluid">
-	<div class="row main-container">
-		<p>DELICIOUS FOOD Quickly confirm or reject a booking Admin email notification when a booking request is made Customer email
-			notifications when their request is confirmed or rejected Limit available booking times (try booking on Christmas below)
-			Customer user role to manage bookings Add your booking form to any page, post or widget area Customize all notifications
-			messages, and date and time formats.</p>
-
-
-		<div class="col-md-6">
-
-			<p class="title">starters</p>
-			<hr> {{#each menu}}
-			<div class="col-md-4">
-				<a href="food.html">
-					<h2 class="post-title">
-						{{this.title}}
-					</h2>
-					<h3 class="post-subtitle">
-						{{this.description}}
-					</h3>
-					<p class="post-content">
-						{{this.image}}
-					</p>
-					<p class="post-content">
-						{{this.cost}}
-					</p>
-					<p class="post-content">
-						{{this.icons}}
-					</p>
-				</a>
-			</div>
-			{{/each}} {{!-- <img src="/img/blake-wisz-287924.jpg"> --}}
-			<div class="menu-text">
-			</div>
-			<div class="col-md-4">
-			</div>
-			<div class="col-md-4">
-			</div>
-			<div class="col-md-6 main-course">
-				<p class="title">main course</p>
+	<div class="container">
+		<div class="row full-text">
+			<h1>TWO-COLUMN MENU</h1>
+			<p class="bodytext">DELICIOUS FOOD<a href="">Quickly confirm or reject a booking</a> Admin email notification when a booking request is made
+				Customer email notifications when their <a href=""> is confirmed or rejected Limit</a> available booking times
+				<span style="font-weight:bold;font-style:italic"> booking on Christmas below) Customer.
+					</span>
+			</p>
+			<!--title = h1
+                text=bodytext  -->
+		</div>
+		<div class="row">
+			<div class="two-col col-md-6">
+				<h4>Starters</h4>
 				<hr>
-				<div class="col-md-2">
+				<!--title = h2
+                 -->
+				<div class="row">
+					<div class="img-col col-md-2">
+						<img src="/img/blake-wisz-287924.jpg">
+					</div>
+					<div class="text-col col-md-4">
+						Goat's cheese parcel
+						<p>Organic, free-range goat's cheese parcel on a yoghurt and mint sauce</p>
+						<!--title = h6
+                 text=bodytext-->
+					</div>
 				</div>
-				<div class="col-md-2">
+				<div class="row">
+					<div class="img-col col-md-2">
+						<img src="/public/img/cel-lisboa-60315.jpg">
+					</div>
+					<div class="text-col col-md-4">
+						LEEKS VINAIGRETTE WITH SAUCE GRIBICHE
+						<p>Organic, free-range goat's cheese parcel on a yoghurt and mint sauce</p>
+						<!--title = h6
+                 text=bodytext-->
+					</div>
 				</div>
-				<div class="col-md-2">
+				<div class="row">
+					<div class="img-col col-md-2">
+						<img src="/public/img/chinh-le-duc-268611.jpg">
+					</div>
+					<div class="text-col col-md-4">
+						MORELS WITH ASPARAGUS
+						<p>Organic, free-range goat's cheese parcel on a yoghurt and mint sauce</p>
+						<!--title = h6
+                 text=bodytext-->
+					</div>
 				</div>
-				<div class="col-md-2">
-				</div>
-				<div class="col-md-2">
-				</div>
-				<div class="col-md-2">
-				</div>
-			</div>
 
+			</div>
+			<div class="two-col col-md-6">
+				<h4>Main Courses</h4>
+				<hr>
+				<!--title = h6
+                 text=bodytext-->
+			</div>
+		</div>
+		<div class="row full-text">
+			FULL WIDTH DESERT
+			<!--title = h1
+                 -->
+		</div>
+		<div class="row">
+			<div class="three-col col-md-4">
+				1 FOOD COLUMN
+				<!--title = h6
+                 text=bodytext-->
+			</div>
+			<div class="three-col col-md-4">
+				2 FOOD COLUMN
+				<!--title = h6
+                 text=bodytext-->
+			</div>
+			<div class="three-col col-md-4">
+				3 FOOD COLUMN
+				<!--title = h6
+                 text=bodytext-->
+			</div>
 		</div>
 	</div>
 </div>
