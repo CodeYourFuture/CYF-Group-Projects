@@ -1,0 +1,166 @@
+/**
+ * Base typography styles
+ */
+body {
+  font-family: 'Droid Serif', serif; /* Google Font */
+  font-size: 16px;
+  line-height: 1.4em;
+  color: #555;
+}
+
+/**
+ * Heading typography styles
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Oswald', sans-serif; /* Google font */
+  font-weight: normal;
+  color: #b45f06;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+h5,
+h6 {
+  font-size: 1rem;
+}
+
+/**
+ * A helper class to hide text that should be available to
+ * those using assistive technology like screen readers
+ */
+.screen-reader {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	left: -2000px;
+}
+
+/**
+ * Layout container to wrap around all content
+ */
+.wrapper {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/**
+ * Header component at the top of the page
+ */
+header {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+/**
+ * Make the header content more narrow than
+ * the main table and center it.
+ */
+header > * {
+  max-width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/**
+ * Button styles
+ */
+.button  {
+	display: inline-block;
+	padding: 0.5em 1em;
+	background: #eee;
+	border: 1px solid #ccc;
+	border-radius: 0.25em;
+  font-size: 0.85rem;
+	font-weight: bold;
+  text-transform: uppercase;
+  color: #b45f06;
+	box-shadow: 0 2px 0 #ccc;
+	cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background: #b45f06;
+  color: #fff;
+  border-color: #b45f06;
+  box-shadow: 0 2px 0 #693907;
+}
+
+.button--add {
+  background: #b45f06;
+  color: #fff;
+  border-color: #b45f06;
+  box-shadow: 0 2px 0 #693907;
+}
+
+.button--add:hover,
+.button--add:focus {
+  background: #e48e33;
+  border-color: #e48e33;
+  box-shadow: 0 2px 0 #b45f06;
+}
+
+/**
+ * Basic table styles
+ */
+.table {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+
+
+.table th,
+.table td {
+  padding: 0.5em;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+
+/**
+ * Styles unique to the progress table
+ */
+.table--progress th:not(:first-child),
+.table--progress td:not(:first-child) {
+  text-align: center;
+}
+
+.table--progress th:first-child,
+.table--progress td:first-child {
+  min-width: 12em;
+}
+
+.table--progress td:last-child {
+  border-left: 1px solid #ccc;
+  border-bottom: none;
+}
+
+/**
+ * Styles for the button row
+ */
+.button-row  {
+  margin-top: 4rem;
+  text-align: center;
+}
