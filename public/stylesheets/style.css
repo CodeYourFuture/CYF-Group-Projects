@@ -1,8 +1,203 @@
+/**
+ * Base typography styles
+ */
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Encode Sans Condensed', serif; /* Google Font */
+  font-size: 18px;
+  line-height: 1.4em;
+  color: #333;
 }
 
+/**
+ * Heading typography styles
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #c136bd;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+h5,
+h6 {
+  font-size: 1rem;
+}
+
+/**
+ * Layout container to wrap around all content
+ */
+.wrapper {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/**
+ * Header component at the top of the page
+ */
+header {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+/**
+ * Link styles
+ */
 a {
-  color: #00B7FF;
+  color: #c136bd;
+}
+
+a:hover,
+a:focus {
+  color: #da6cd7;
+}
+
+/**
+ * Button styles
+ */
+.button  {
+	display: inline-block;
+	padding: 0.5em 1em;
+	background: #eee;
+	border: 1px solid #ccc;
+	border-radius: 0.25em;
+  font-size: 14px;
+  line-height: 1.2em;
+	font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #c136bd;
+	box-shadow: 0 2px 0 #ccc;
+	cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background: #da6cd7;
+  color: #fff;
+  border-color: #da6cd7;
+  box-shadow: 0 2px 0 #c136bd;
+}
+
+.button--primary {
+  background: #c136bd;
+  color: #fff;
+  border-color: #c136bd;
+  box-shadow: 0 2px 0 #671164;
+}
+
+.button--primary:hover,
+.button--primary:focus {
+  background: #da6cd7;
+  border-color: #da6cd7;
+  box-shadow: 0 2px 0 #c136bd;
+}
+
+/**
+ * Base product styles
+ */
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/**
+ * Add a border above each product except the first one
+ */
+.product + .product {
+  border-top: 1px solid #ddd;
+}
+
+.product__title {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.product__price {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #777;
+}
+
+.product__rating {
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.product__reviews {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+}
+
+.product__thumbnail {
+  background: #444;
+  width: 8rem;
+  height: 8rem;
+  margin-right: 1rem;
+}
+
+/**
+ * Styles for the top-rated product
+ */
+.product--top {
+  background: #ddd;
+}
+
+/**
+ * Fun color gradients to stand in for product images
+ */
+.product__thumbnail--lorem {
+  background: #ee0979;
+  background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+}
+
+.product__thumbnail--ipsum {
+  background: #00d2ff;
+  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+  background: linear-gradient(to right, #3a7bd5, #00d2ff);
+}
+
+.product__thumbnail--dolor {
+  background: #DAD299;
+  background: -webkit-linear-gradient(to right, #B0DAB9, #DAD299);
+  background: linear-gradient(to right, #B0DAB9, #DAD299);
+}
+
+.product__thumbnail--sit {
+  background: #ddd6f3;
+  background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);
+  background: linear-gradient(to right, #faaca8, #ddd6f3);
+}
+
+.product__thumbnail--amet {
+  background: #c21500;
+  background: -webkit-linear-gradient(to right, #ffc500, #c21500);
+  background: linear-gradient(to right, #ffc500, #c21500);
 }
