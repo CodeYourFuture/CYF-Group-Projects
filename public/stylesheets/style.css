@@ -171,11 +171,16 @@ a:focus {
   font-size: 1.5rem;
 }
 
+.entry__answer {
+  line-height: 2em;
+}
+
 .entry__help {
   margin-top: 2rem;
   padding-top: 1rem;
   border-top: 1px solid #ddd;
   font-size: 0.85rem;
+  line-height: 1.4em;
 }
 
 /**

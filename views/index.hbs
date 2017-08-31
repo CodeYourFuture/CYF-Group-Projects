@@ -7,54 +7,25 @@
 		Search
 	</button>
 </form>
-<ul class="entry-list">
-	<li class="entry">
-		<h2 class="entry__question">
-			When should I use MongoDB?
-		</h2>
-		<div class="entry__answer">
-			<p>MongoDB is typically used as the primary data store for operational applications with real-time requirements (i.e., low-latency, high availability). MongoDB is generally a good fit for 60%-80% of the applications you may be building today. MongoDB is easy to operate and scale in ways that are hard if not impossible with relational databases.</p>
-			<p>MongoDB excels in many use cases where relational databases aren't a good fit, like applications with unstructured, semi-structured and polymorphic data, as well as applications with large scalability requirements or multi-data center deployments.</p>
-			<p>MongoDB may not be a good fit for some applications. For example, applications that require complex transactions (e.g., a double-entry bookkeeping system) and scan-oriented applications that access large subsets of the data most of the time may not be a good fit for MongoDB. MongoDB is not a drop-in replacement for legacy applications built around the relational data model and SQL.</p>
-			<p>Some common use cases include mobile apps, product catalogs, real-time personalization, content management and applications delivering a single view across multiple systems. Learn more about common use cases.</p>
-		</div>
-		<div class="entry__help">
-			25 people found this helpful. Was this entry helpful?
-			<button class="button button--small">Yes</button>
-			<button class="button button--small">No</button>
-		</div>
-	</li>
-	<li class="entry">
-		<h2 class="entry__question">
-			How is data stored in MongoDB?
-		</h2>
-		<div class="entry__answer">
-			<p>Data in MongoDB is stored in BSON documents – JSON-style data structures. Documents contain one or more fields, and each field contains a value of a specific data type, including arrays, binary data and sub-documents. Documents that tend to share a similar structure are organized as collections.</p>
-			<p>It may be helpful to think of documents as analogous to rows in a relational database, fields as similar to columns, and collections as similar to tables.</p>
-			<p>Learn more in the MongoDB MongoDB Architecture Guide.</p>
-		</div>
-		<div class="entry__help">
-			25 people found this helpful. Was this entry helpful?
-			<button class="button button--small">Yes</button>
-			<button class="button button--small">No</button>
-		</div>
-	</li>
-	<li class="entry">
-		<h2 class="entry__question">
-			Does MongoDB support ACID transactions?
-		</h2>
-		<div class="entry__answer">
-			<p>Yes, but in a limited sense. MongoDB supports ACID transactions at the document level; today MongoDB does not support multi-document transactions. For many but not all applications, this is sufficient because data for a record tends to be managed as a single document. Like most databases, MongoDB uses write-ahead logging to an on-disk journal to guarantee write operation durability and to provide crash resiliency.</p>
-			<p>The distributed nature of MongoDB necessitates additional consideration beyond ACID regarding consistency and availability. MongoDB automatically maintains replica sets, multiple copies of data that are distributed across servers, racks and data centers for high availability ( see How does MongoDB ensure high availability? ) MongoDB is strongly consistent: all reads and writes are applied to the primary member by default. ( See How does MongoDB ensure consistency? ) Write operations are automatically applied to all replica set members. You can configure each write to return after success on the primary, on multiple set members, a majority of set members, or all members. Reads can be applied to the primary member, to secondary members if the primary is unavailable, to specific members exclusively (for workload isolation), or to the nearest secondary based on ping distance. You can configure your reads and writes to achieve the consistency and availability required for your application.</p>
-			<p>Learn more in the MongoDB MongoDB Architecture Guide.</p>
-		</div>
-		<div class="entry__help">
-			25 people found this helpful. Was this entry helpful?
-			<button class="button button--small">Yes</button>
-			<button class="button button--small">No</button>
-		</div>
-	</li>
-</ul>
+{{#if entries}}
+	<ul class="entry-list">
+		{{#each entries}}
+			<li class="entry">
+				<h2 class="entry__question">
+					{{this.question}}
+				</h2>
+				<div class="entry__answer">
+					{{{this.answer}}}
+				</div>
+				<div class="entry__help">
+					{{this.helpful}}/?? people found this helpful. Was this entry helpful?
+					<button class="button button--small">Yes</button>
+					<button class="button button--small">No</button>
+				</div>
+			</li>
+		{{/each}}
+	</ul>
+{{/if}}
 <div class="add">
 	<p class="add__prompt">Still haven't found your answer? Why not ask a question?</p>
 	<button class="button button--primary">Ask Question</button>
