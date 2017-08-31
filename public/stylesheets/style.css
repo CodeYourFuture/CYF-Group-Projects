@@ -1,8 +1,192 @@
+/**
+ * Base typography styles
+ */
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Lora', serif; /* Google Font */
+  font-size: 18px;
+  line-height: 1.4em;
+  color: #333;
 }
 
+/**
+ * Heading typography styles
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #2c7377;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+h5,
+h6 {
+  font-size: 1rem;
+}
+
+/**
+ * Layout container to wrap around all content
+ */
+.wrapper {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/**
+ * A helper class to hide text that should be available to
+ * those using assistive technology like screen readers
+ */
+.screen-reader {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	left: -2000px;
+}
+
+/**
+ * Header component at the top of the page
+ */
+header {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+/**
+ * Link styles
+ */
 a {
-  color: #00B7FF;
+  color: #2c7377;
+}
+
+a:hover,
+a:focus {
+  color: #4cb9bf;
+}
+
+/**
+ * Button styles
+ */
+.button  {
+	display: inline-block;
+	padding: 0.5em 1em;
+	background: #eee;
+	border: 1px solid #ccc;
+	border-radius: 0.25em;
+  font-size: 14px;
+  line-height: 1.2em;
+	font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #2c7377;
+	box-shadow: 0 2px 0 #ccc;
+	cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background: #4cb9bf;
+  color: #fff;
+  border-color: #4cb9bf;
+  box-shadow: 0 2px 0 #2c7377;
+}
+
+.button--primary {
+  background: #2c7377;
+  color: #fff;
+  border-color: #2c7377;
+  box-shadow: 0 2px 0 #1b5b5f;
+}
+
+.button--primary:hover,
+.button--primary:focus {
+  background: #4cb9bf;
+  border-color: #4cb9bf;
+  box-shadow: 0 2px 0 #2c7377;
+}
+
+.button--small {
+  font-size: 0.7rem;
+}
+
+/**
+ * Search panel
+ */
+.search {
+  text-align: center;
+}
+
+.search__input {
+  width: 20em;
+  padding: 0.5em 1em;
+  border: 1px solid #ddd;
+  border-radius: 0.25em;
+  box-shadow: 0 2px 0 #ddd;
+  font-size: 1.2rem;
+  line-height: 1.2em;
+}
+
+.search .button--primary {
+  font-size: 1.2rem;
+}
+
+/**
+ * Styles for the list of entries
+ */
+.entry-list {
+  margin: 0; /* reset <ul> margins */
+  padding: 0; /* reset <ul> margins */
+  list-style: none; /* hide the <ul> bullet points */
+}
+
+/**
+ * Styles for each question/answer entry
+ */
+.entry {
+  margin-top: 6rem;
+}
+
+.entry__question {
+  font-size: 1.5rem;
+}
+
+.entry__help {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ddd;
+  font-size: 0.85rem;
+}
+
+/**
+ * Styles for the bottom panel where someone can ask a question
+ */
+.add {
+  margin: 6rem auto;
+  max-width: 20rem;
+  text-align: center;
+}
+
+.add__prompt {
+  font-size: 1.2rem;
 }
