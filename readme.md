@@ -9,7 +9,7 @@ This repository is part of CodeYourFuture's [group projects](https://github.com/
 ## What you need to do
 
 - Create a [MongoDB](https://www.mongodb.com/) database and a collection to store products.
-- Move the [existing data](https://github.com/NateWr/group-project-progress-chart/tree/master/data) into the database.
+- Move the [existing data](data) into the database.
 - Create a [route](https://expressjs.com/en/guide/routing.html) on your server to display each product. For instance, a product with a `urlPath` of `lorem` should be available at `/product/lorem`.
 - On the single-product page, add a [form](http://marksheet.io/html-forms.html) which allows a user to rate the product between `1` (worst) and `5` (best), and leave a comment. All existing comments should be listed below the product on the single-product page.
 - On the front page where products are listed, display the average rating in each product and a count of the number of comments that have been left.
