@@ -15,5 +15,5 @@ This repository is part of CodeYourFuture's [group projects](https://github.com/
 
 ## Stretch goals
 
-- Try to implement add and edit features using only [ajax requests](https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started).
+- Try to implement the add and edit features using only [ajax requests](https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started).
 - Try to add a **Delete** button to delete a topic.
