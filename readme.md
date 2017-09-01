@@ -45,6 +45,14 @@ These projects can be completed without waiting for students to learn about Node
 - [Fashion Website](fashion-website/readme.md) - Implement a design mockup in HTML/CSS.
 - [Museum Website](museum-website/readme.md) - Implement a design mockup in HTML/CSS.
 
+### Express/MongoDB projects
+
+These projects are designed to reinforce basic CRUD operations using Node/MongoDB.
+
+- [Progress Chart](progress-chart/readme.md) - Implement a small app to track your learning progress.
+- [Shopping](shop-comments/readme.md) - Implement a small shopping app with rating and comments.
+- [FAQ](faq/readme.md) - Implement a small FAQ app with searching.
+
 ## License
 
 All images, mockups and other visual assets are copyright their respective owners. These assets are for educational use only. Please consult each project for licensing details.
