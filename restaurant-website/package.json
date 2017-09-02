@@ -21,6 +21,9 @@
     "express": "^4.15.3",
     "express-handlebars": "^3.0.0"
   },
+  "engines": {
+    "node": "7.10.0"
+  },
   "devDependencies": {
     "nodemon": "^1.11.0"
   }
