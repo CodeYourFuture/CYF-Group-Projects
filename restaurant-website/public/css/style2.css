@@ -61,13 +61,41 @@ div.row.full-text{
     display: flex;
     flex-direction: column;
 }
+div.text-col{
+        display: flex;
+    flex-direction: column;
+    align-self: baseline;
+    order: 1;
+}
+div.img-col{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0 2rem 0;
+}
 h1{
     font-size: 48px;
     font-weight: bold;
     margin-left: -30rem;
 }
+h6 {
+    font-size: 18px;
+    color: #242424;
+    font-weight: bold;
+    padding: 0 0rem 0 2rem;
+}
+div.col-sm-1{ 
+    display: flex;
+    justify-content: flex-end;
+    align-self: baseline;
+    order: 2;
+}
 .bodytext{
     font-size: 18px;
     color: #242424;
-
 }
+ .bodytext{
+    display: flex;
+    flex-direction:column ;
+    padding: 0 0rem 0 rem;
+}
+
