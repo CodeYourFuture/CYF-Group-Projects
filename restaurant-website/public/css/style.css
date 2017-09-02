@@ -1,13 +1,30 @@
 html, body{
-    background-color: #ffffff;
+    background: #ffffff;
     font-family: "Open Sans" ;
 }
 
+.reservations{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8rem 0 0 4rem;
+
+}
+.sidebar{
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 0;
+}
+  
+.glyphicon-search {
+    color: #b8b8b8;
+}
 a{
     color: #242424;
     text-decoration: none;
     font-family: "Open Sans"
 }
+
 
 a:focus, a:hover {
     color: #9a8f45;
@@ -22,13 +39,20 @@ h1{
     color: #242424;
 }
 
+.container-reservations{
+     display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+
+}
+  
 .container_fluid {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     background-color: #ffffff;
-    font-size: 18px;   
+  
 }
 
 .col-md-4{
@@ -102,3 +126,28 @@ h6{
     color: #242424
     
 };
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) { 
+    
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) { 
+    
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+    
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+    
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
