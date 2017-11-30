@@ -8,11 +8,10 @@ const path = './bookshelf.js';
 const file = fs.readFileSync(path, "utf8");
 
 if (file.startsWith('window')) {
-    require(path)
+  require(path)
 } else {
   window.bookshelf = eval(`(function(){ ${file}; return { removeBtn, fetchBooks, processBooks, moveUp, moveDown }}())`)
 }
-
 
 const initialHTML = document.body.innerHTML
 const btnHTML = '<button id="fetch-books-btn">Fetch Books</button>'
