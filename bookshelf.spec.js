@@ -10,7 +10,7 @@ const file = fs.readFileSync(path, "utf8");
 if (file.startsWith('window')) {
   require(path)
 } else {
-  window.bookshelf = eval(`(function(){ ${file}; return { removeBtn, fetchBooks, processBooks, moveUp, moveDown }}())`)
+  window.bookshelf = eval(`(function(){ ${file}; return { removeBtn, fetchBooks, processBooks }}())`)
 }
 
 const initialHTML = document.body.innerHTML
