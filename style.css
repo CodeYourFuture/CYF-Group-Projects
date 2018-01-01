@@ -1,0 +1,85 @@
+/* Base site colors and fonts */
+body,
+html {
+	background: #3b262c;
+	font-family: "Source Serif Pro", sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+button,
+input {
+	font-family: "Source Serif Pro", sans-serif;
+}
+
+/* Wrap the site content in a centred box */
+.site-wrapper {
+	max-width: 30rem;
+	margin-top: 5rem;
+	margin-left: auto;
+	margin-right: auto;
+	background: #f2dee3;
+	border-radius: 3px;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+}
+
+/* Buttons */
+.button {
+	padding: 0.25em 0.5em;
+	border: none;
+	border-radius: 2px;
+	border: 1px solid rgba(0,0,0,0.1);
+	background: #db446f;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Site title and top navigation */
+.site-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem 1rem;
+	color: rgba(255,255,255,0.9);
+	background: #db446f;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.site-header__title {
+	margin: 0;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+/* Messages */
+.question {
+	margin: 1rem;
+	padding: 1rem;
+	border-radius: 2px;
+	background: #fff;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+}
+
+.question__author {
+	font-size: 12px;
+	font-weight: 700;
+	color: rgba(0,0,0,0.6);
+}
+
+.question__question {
+	margin: 0;
+}
+
+.question__date {
+	font-size: 12px;
+	color: rgba(0,0,0,0.6);
+	text-align: right;
+}
+
+/* Input area to add a new question */
+.ask-question {
+	padding: 0.5rem 1rem;
+	text-align: center;
+}
