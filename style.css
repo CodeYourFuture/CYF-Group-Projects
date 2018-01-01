@@ -7,6 +7,11 @@ html {
 	line-height: 1.5em;
 }
 
+button,
+input {
+	font-family: Montserrat, sans-serif;
+}
+
 /* Wrap the site content in a centred box */
 .site-wrapper {
 	max-width: 30rem;
@@ -46,14 +51,6 @@ html {
 	margin: 0;
 	font-size: 18px;
 	font-weight: 700;
-}
-
-.site-header__link {
-	padding: 0.25em 0.5em;
-	border: 1px solid rgba(255,255,255,0.4);
-	background: rgba(255,255,255,0.2);
-	color: #2768a7;
-	text-decoration: none;
 }
 
 /* Messages */
