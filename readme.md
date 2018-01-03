@@ -38,7 +38,7 @@ Below is a short list of projects that have been compiled. Please identify, conc
 
 ### Starter projects
 
-These projects can be completed with only a basic understanding of HTML/CSS. They are intended introduce working together on shared code, managing version control, and resolving conflicts.
+These projects can be completed with only a basic understanding of HTML/CSS. They are intended to introduce working together on shared code, managing version control, and resolving conflicts.
 
 - [Changes on Messaging App](revisions-messaging/readme.md) - Implement requested changes to a messaging app.
 - [Changes on Shop App](revisions-shop/readme.md) - Implement requested changes to a shopping app.

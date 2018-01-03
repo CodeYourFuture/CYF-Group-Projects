@@ -1,6 +1,6 @@
 # Changes Requested on Frequently Asked Questions App
 
-You work in a small development team responsible for a question and answer application your company users to communicate internally. Following user testing, your team leader has requested that a few changes be made to the application.
+You work in a small development team responsible for a "question and answer" application your company uses to communicate internally. Following user testing, your team leader has requested that a few changes be made to the application.
 
 ![Screenshot of requested changes](requested-revisions.png)
 
