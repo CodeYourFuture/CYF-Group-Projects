@@ -36,6 +36,15 @@ Some of the skills we've identified that students can help teach each other on t
 
 Below is a short list of projects that have been compiled. Please identify, conceive and add additional projects.
 
+### Starter projects
+
+These projects can be completed with only a basic understanding of HTML/CSS. They are intended to introduce working together on shared code, managing version control, and resolving conflicts.
+
+- [Changes on Messaging App](revisions-messaging/readme.md) - Implement requested changes to a messaging app.
+- [Changes on Shop App](revisions-shop/readme.md) - Implement requested changes to a shopping app.
+- [Changes on FAQ App](revisions-faq/readme.md) - Implement requested changes to a frequently asked questions app.
+- [Changes on Reviews App](revisions-reviews/readme.md) - Implement requested changes to a reviews app.
+
 ### Server-less projects
 
 These projects can be completed without waiting for students to learn about Node/DB.
