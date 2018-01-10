@@ -14,6 +14,6 @@ You work in a small development team that runs an online website where programmi
 
 ## Final Product
 
-When you complete the project, we'll expect to be able to clone the `master` branch of your group repository and see the app with everyone's changes in place.
+When you complete the project, we'll expect to be able to clone the `master` branch of your group repository and see the app with everyone's changes in place. (Read our instructions on [how to fork and clone](https://codeyourfuture.github.io/syllabus-master/others/making-a-pull-request.html).)
 
 Be sure to alert the mentors when you have finished so that we can review it.
