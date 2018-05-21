@@ -47,12 +47,19 @@ These projects can be completed with only a basic understanding of HTML/CSS. The
 
 ### Server-less projects
 
-These projects can be completed without waiting for students to learn about Node/DB.
+These projects can be completed without waiting for students to learn about React, Node or DB.
 
 - [Restaurant Website](restaurant-website/readme.md) - Implement a design mockup in HTML/CSS.
 - [Luxury Vehicles Website](luxury-vehicles-website/readme.md) - Implement a design mockup in HTML/CSS.
 - [Fashion Website](fashion-website/readme.md) - Implement a design mockup in HTML/CSS.
 - [Museum Website](museum-website/readme.md) - Implement a design mockup in HTML/CSS.
+
+### React-only projects
+
+These projects are designed to reinforce basic React skills and do not require knowledge of Node or DB.
+
+- [Payments](payments/readme.md) - Make payments and track your balance with multiple currencies.
+
 
 ### Express/MongoDB projects
 
