@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import Balance from './components/Balance';
 import MakePayment from './components/MakePayment';
 import Payments from './containers/Payments';
+import currencies from './data/currencies';
 import './App.css';
-import currencies from './currencies';
 
 class App extends Component {
   constructor() {
@@ -11,7 +11,6 @@ class App extends Component {
     this.state = {
       currencies: currencies,
       balance: 87.43, // This is the current balance in GBP
-      payments: [],
     };
   }
 

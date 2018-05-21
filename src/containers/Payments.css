@@ -17,6 +17,6 @@
 	padding: 1em;
 }
 
-.Payments-description {
-	width: 65%;
+.Payments tfoot {
+	font-weight: bold;
 }
