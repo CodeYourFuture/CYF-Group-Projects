@@ -1,0 +1,29 @@
+.MakePayment {
+	margin: 4rem auto;
+}
+
+.MakePayment-label {
+	margin-bottom: 1rem;
+}
+
+.MakePayment-control select,
+.MakePayment-control input {
+	margin-right: 0.5em;
+	padding: 0 0.5em;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	border: 1px solid #aaa;
+	border-radius: 3px;
+}
+
+.MakePayment-amount {
+	max-width: 6em;
+}
+
+.MakePayment-description {
+	max-width: 20em;
+}
+
+.MakePayment .Button {
+	height: 2.5rem;
+}

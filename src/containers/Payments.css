@@ -1,0 +1,22 @@
+.Payments {
+	border-collapse: collapse;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	box-shadow: 0 2px 0 #ccc;
+	margin: 0 auto 4rem;
+	max-width: 50rem;
+	text-align: left;
+}
+
+.Payments tr {
+	border-bottom: 1px solid #ccc;
+}
+
+.Payments td,
+.Payments th {
+	padding: 1em;
+}
+
+.Payments-description {
+	width: 65%;
+}
