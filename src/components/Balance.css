@@ -1,0 +1,14 @@
+.Balance {
+	margin: 0 auto;
+	padding: 4rem 0 3rem;
+	font-size: 1rem;
+	font-weight: normal;
+	background:#ddd;
+}
+
+.Balance-total {
+	display: block;
+	margin: 1rem auto;
+	font-size: 3rem;
+	font-weight: 300;
+}
