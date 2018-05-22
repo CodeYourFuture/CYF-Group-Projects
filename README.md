@@ -10,6 +10,7 @@ This repository is part of CodeYourFuture's [group projects](https://github.com/
 
 ## What you need to do
 
+- Replace the "???" below the account balance. It should show the account balance in the currency which is selected on the right. When the user changes the selection, it should update the value.
 - Replace the information in the `Payments` component with the data in `/data/payments.js`. When completed you should see 5 payments.
 - Make "???" in the payments table show the total of all payments in GBP.
 - Allow the user to record a payment with the "Make a Payment" form. When a payment is recorded, it should appear in the Payments table.

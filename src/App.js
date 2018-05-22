@@ -20,7 +20,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">Payments</h1>
         </header>
-        <Balance total={this.state.balance} />
+        <Balance total={this.state.balance} currencies={this.state.currencies} />
         <MakePayment currencies={this.state.currencies} />
         <h2>Payments</h2>
         <Payments />

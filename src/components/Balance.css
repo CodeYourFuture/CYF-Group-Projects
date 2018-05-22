@@ -1,9 +1,13 @@
 .Balance {
 	margin: 0 auto;
-	padding: 4rem 0 3rem;
+	padding: 4rem 0;
+	background: #c9d4de;
+}
+
+.Balance-title {
+	margin: 0 auto;
 	font-size: 1rem;
 	font-weight: normal;
-	background: #c9d4de;
 }
 
 .Balance-total {
@@ -11,4 +15,12 @@
 	margin: 1rem auto;
 	font-size: 3rem;
 	font-weight: 300;
+}
+
+.Balance-alt {
+	margin-top: 2rem;
+}
+
+.Balance-alt select {
+	margin-left: 0.5rem;
 }
