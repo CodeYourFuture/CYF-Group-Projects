@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Balance from './components/Balance';
-import MakePayment from './components/MakePayment';
+import CalcPayment from './components/CalcPayment';
 import Payments from './components/Payments';
 import currencies from './data/currencies';
 import './App.css';
@@ -21,7 +21,7 @@ class App extends Component {
           <h1 className="App-title">Payments</h1>
         </header>
         <Balance total={this.state.balance} currencies={this.state.currencies} />
-        <MakePayment currencies={this.state.currencies} />
+        <CalcPayment currencies={this.state.currencies} />
         <h2>Payments</h2>
         <Payments />
       </div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Button from './Button';
-import './MakePayment.css';
+import './CalcPayment.css';
 
 class Payment extends Component {
   constructor() {
@@ -20,15 +20,17 @@ class Payment extends Component {
 
 	render() {
 		return (
-			<div className="MakePayment">
-				<h2 className="MakePayment-label">Make a Payment</h2>
-				<div className="MakePayment-control">
+			<div className="CalcPayment">
+				<h2 className="CalcPayment-label">Calculate Payment in GBP</h2>
+				<div className="CalcPayment-control">
 					<select onChange={this.selectCurrency} defaultValue={this.state.selectedCurrency}>
 						{this.props.currencies.map((currency, index) => <option key={index}>{currency}</option>)}
 					</select>
-          <input className="MakePayment-amount" type="text" defaultValue="0.00" />
-					<input className="MakePayment-description" type="text" placeholder="What is this payment for?" />
-					<Button>Pay</Button>
+          <input className="CalcPayment-amount" type="text" defaultValue="0.00" />
+          is worth <span className="CalcPayment-result">???</span> in GBP.
+          <div className="CalcPayment-calculate">
+            <Button>Calculate</Button>
+          </div>
 				</div>
 			</div>
 		)
