@@ -23,7 +23,7 @@ function Payments(props) {
 					<td>Dinner with friends at a local restaurant</td>
 					<td>Pending</td>
 					<td>
-						<Button label="Cancel"></Button>
+						<Button>Cancel</Button>
 					</td>
 				</tr>
 				<tr>

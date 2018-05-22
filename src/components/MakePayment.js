@@ -12,7 +12,7 @@ class Payment extends Component {
   }
 
 	selectCurrency = (event) => {
-		let currency = event.target.value;
+		const currency = event.target.value;
 		this.setState({
 			selectedCurrency: currency
 		});
@@ -28,7 +28,7 @@ class Payment extends Component {
 					</select>
           <input className="MakePayment-amount" type="text" defaultValue="0.00" />
 					<input className="MakePayment-description" type="text" placeholder="What is this payment for?" />
-					<Button label="Pay" />
+					<Button>Pay</Button>
 				</div>
 			</div>
 		)
