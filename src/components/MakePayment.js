@@ -28,7 +28,7 @@ class Payment extends Component {
 					</select>
           <input className="MakePayment-amount" type="text" defaultValue="0.00" />
 					<input className="MakePayment-description" type="text" placeholder="What is this payment for?" />
-					<Button label="Pay" />
+					<Button>Pay</Button>
 				</div>
 			</div>
 		)
