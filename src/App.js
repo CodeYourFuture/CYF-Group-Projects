@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Balance from './components/Balance';
 import MakePayment from './components/MakePayment';
-import Payments from './containers/Payments';
+import Payments from './components/Payments';
 import currencies from './data/currencies';
 import './App.css';
 
