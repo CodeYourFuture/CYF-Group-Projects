@@ -15,9 +15,6 @@ This repository is part of CodeYourFuture's [group projects](https://github.com/
 - Replace the information in the `Payments` component with the data in `/data/payments.js`. When completed you should see 5 payments.
 - Make "???" in the payments table show the total of all payments in GBP.
 
-
-> _Hint: As a group, decide what pieces of data will be state and which components will need to use them._
-
 ## Stretch goals
 
 - Add a "Make Payment" button to the "Calculate Payment" form. When a payment is made, it should appear in the payments table and the balance should be updated.
