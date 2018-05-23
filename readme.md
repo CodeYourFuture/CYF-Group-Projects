@@ -60,7 +60,7 @@ These projects are designed to reinforce basic React skills and do not require k
 
 - [Payments](payments/readme.md) - Build an app to track payments in multiple currencies.
 - [Countries](countries/readme.md) - Build an app to learn about members' home countries.
-- [Payments](dogs/readme.md) - Build an app to have fun with doggies.
+- [Dogs](dogs/readme.md) - Build an app to have fun with doggies.
 
 ### Express/MongoDB projects
 
