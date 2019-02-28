@@ -7,7 +7,13 @@
     "react-dom": "^16.8.3",
     "react-scripts": "2.1.5"
   },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "prettier": "^1.16.4",
+    "pretty-quick": "^1.10.0"
+  },
   "scripts": {
+    "precommit": "pretty-quick --staged --verbose",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
