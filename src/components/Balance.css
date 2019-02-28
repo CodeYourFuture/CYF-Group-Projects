@@ -1,26 +1,26 @@
 .Balance {
-	margin: 0 auto;
-	padding: 4rem 0;
-	background: #c9d4de;
+  margin: 0 auto;
+  padding: 4rem 0;
+  background: #c9d4de;
 }
 
 .Balance-title {
-	margin: 0 auto;
-	font-size: 1rem;
-	font-weight: normal;
+  margin: 0 auto;
+  font-size: 1rem;
+  font-weight: normal;
 }
 
 .Balance-total {
-	display: block;
-	margin: 1rem auto;
-	font-size: 3rem;
-	font-weight: 300;
+  display: block;
+  margin: 1rem auto;
+  font-size: 3rem;
+  font-weight: 300;
 }
 
 .Balance-alt {
-	margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .Balance-alt select {
-	margin-left: 0.5rem;
+  margin-left: 0.5rem;
 }

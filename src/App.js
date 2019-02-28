@@ -1,16 +1,16 @@
-import React, { Component } from 'react';
-import Balance from './components/Balance';
-import CalcPayment from './components/CalcPayment';
-import Payments from './components/Payments';
-import currencies from './data/currencies';
-import './App.css';
+import React, { Component } from "react";
+import Balance from "./components/Balance";
+import CalcPayment from "./components/CalcPayment";
+import Payments from "./components/Payments";
+import currencies from "./data/currencies";
+import "./App.css";
 
 class App extends Component {
   constructor() {
-    super()
+    super();
     this.state = {
       currencies: currencies,
-      balance: 87.43, // This is the current balance in GBP
+      balance: 87.43 // This is the current balance in GBP
     };
   }
 
