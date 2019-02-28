@@ -2,7 +2,7 @@
  * Base typography styles
  */
 body {
-  font-family: 'Droid Serif', serif; /* Google Font */
+  font-family: "Droid Serif", serif; /* Google Font */
   font-size: 16px;
   line-height: 1.4em;
   color: #555;
@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Oswald', sans-serif; /* Google font */
+  font-family: "Oswald", sans-serif; /* Google font */
   font-weight: normal;
   color: #b45f06;
 }
@@ -48,9 +48,9 @@ h6 {
  * those using assistive technology like screen readers
  */
 .screen-reader {
-	clip: rect(1px, 1px, 1px, 1px);
-	position: absolute !important;
-	left: -2000px;
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  left: -2000px;
 }
 
 /**
@@ -86,18 +86,18 @@ header > * {
 /**
  * Button styles
  */
-.button  {
-	display: inline-block;
-	padding: 0.5em 1em;
-	background: #eee;
-	border: 1px solid #ccc;
-	border-radius: 0.25em;
+.button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 0.25em;
   font-size: 0.85rem;
-	font-weight: bold;
+  font-weight: bold;
   text-transform: uppercase;
   color: #b45f06;
-	box-shadow: 0 2px 0 #ccc;
-	cursor: pointer;
+  box-shadow: 0 2px 0 #ccc;
+  cursor: pointer;
 }
 
 .button:hover,
@@ -131,7 +131,6 @@ header > * {
   border-collapse: collapse;
 }
 
-
 .table th,
 .table td {
   padding: 0.5em;
@@ -160,7 +159,7 @@ header > * {
 /**
  * Styles for the button row
  */
-.button-row  {
+.button-row {
   margin-top: 4rem;
   text-align: center;
 }

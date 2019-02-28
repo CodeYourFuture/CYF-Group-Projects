@@ -1,10 +1,10 @@
 [
-	{
-		"title": "Callbacks",
-		"beforeClass": 1,
-		"afterClass": 2,
-		"monday": 3,
-		"wednesday": 4,
-		"thursday": 5
-	}
+  {
+    "title": "Callbacks",
+    "beforeClass": 1,
+    "afterClass": 2,
+    "monday": 3,
+    "wednesday": 4,
+    "thursday": 5
+  }
 ]
