@@ -2,7 +2,7 @@
  * Base typography styles
  */
 body {
-  font-family: 'Encode Sans Condensed', serif; /* Google Font */
+  font-family: "Encode Sans Condensed", serif; /* Google Font */
   font-size: 18px;
   line-height: 1.4em;
   color: #333;
@@ -77,20 +77,20 @@ a:focus {
 /**
  * Button styles
  */
-.button  {
-	display: inline-block;
-	padding: 0.5em 1em;
-	background: #eee;
-	border: 1px solid #ccc;
-	border-radius: 0.25em;
+.button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 0.25em;
   font-size: 14px;
   line-height: 1.2em;
-	font-weight: bold;
+  font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
   color: #c136bd;
-	box-shadow: 0 2px 0 #ccc;
-	cursor: pointer;
+  box-shadow: 0 2px 0 #ccc;
+  cursor: pointer;
 }
 
 .button:hover,
@@ -185,9 +185,9 @@ a:focus {
 }
 
 .product__thumbnail--dolor {
-  background: #DAD299;
-  background: -webkit-linear-gradient(to right, #B0DAB9, #DAD299);
-  background: linear-gradient(to right, #B0DAB9, #DAD299);
+  background: #dad299;
+  background: -webkit-linear-gradient(to right, #b0dab9, #dad299);
+  background: linear-gradient(to right, #b0dab9, #dad299);
 }
 
 .product__thumbnail--sit {

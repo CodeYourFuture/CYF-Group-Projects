@@ -1,32 +1,32 @@
 [
-	{
-		"urlPath": "lorem",
-		"title": "Lorem",
-		"price": 21,
-		"rating": "4.5/5",
-		"commentCount": 3
-	},
-	{
-		"urlPath": "ipsum",
-		"title": "Ipsum",
-		"price": 15,
-		"rating": "4.75/5",
-		"commentCount": 1,
-		"isTopRated": true
-	},
-	{
-		"urlPath": "dolor",
-		"title": "Dolor",
-		"price": 32
-	},
-	{
-		"urlPath": "sit",
-		"title": "Sit",
-		"price": 42
-	},
-	{
-		"urlPath": "amet",
-		"title": "Amet",
-		"price": 12
-	}
+  {
+    "urlPath": "lorem",
+    "title": "Lorem",
+    "price": 21,
+    "rating": "4.5/5",
+    "commentCount": 3
+  },
+  {
+    "urlPath": "ipsum",
+    "title": "Ipsum",
+    "price": 15,
+    "rating": "4.75/5",
+    "commentCount": 1,
+    "isTopRated": true
+  },
+  {
+    "urlPath": "dolor",
+    "title": "Dolor",
+    "price": 32
+  },
+  {
+    "urlPath": "sit",
+    "title": "Sit",
+    "price": 42
+  },
+  {
+    "urlPath": "amet",
+    "title": "Amet",
+    "price": 12
+  }
 ]
