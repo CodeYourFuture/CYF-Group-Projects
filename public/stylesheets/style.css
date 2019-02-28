@@ -2,7 +2,7 @@
  * Base typography styles
  */
 body {
-  font-family: 'Lora', serif; /* Google Font */
+  font-family: "Lora", serif; /* Google Font */
   font-size: 18px;
   line-height: 1.4em;
   color: #333;
@@ -59,9 +59,9 @@ h6 {
  * those using assistive technology like screen readers
  */
 .screen-reader {
-	clip: rect(1px, 1px, 1px, 1px);
-	position: absolute !important;
-	left: -2000px;
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  left: -2000px;
 }
 
 /**
@@ -88,20 +88,20 @@ a:focus {
 /**
  * Button styles
  */
-.button  {
-	display: inline-block;
-	padding: 0.5em 1em;
-	background: #eee;
-	border: 1px solid #ccc;
-	border-radius: 0.25em;
+.button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 0.25em;
   font-size: 14px;
   line-height: 1.2em;
-	font-weight: bold;
+  font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
   color: #2c7377;
-	box-shadow: 0 2px 0 #ccc;
-	cursor: pointer;
+  box-shadow: 0 2px 0 #ccc;
+  cursor: pointer;
 }
 
 .button:hover,

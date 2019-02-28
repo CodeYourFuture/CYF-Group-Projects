@@ -10,7 +10,7 @@ This repository is part of CodeYourFuture's [group projects](https://github.com/
 
 - Create a [MongoDB](https://www.mongodb.com/) database and a collection to store questions and answers.
 - Move the [existing data](data) into the database. Add several more entries on whatever topics you would like.
-- Allow a user to search for a word or phrase and display only entries which contain that word or phrase. You'll want to use MongoDB's [$regex](https://docs.mongodb.com/manual/reference/operator/query/regex/) feature to search your database.
+- Allow a user to search for a word or phrase and display only entries which contain that word or phrase. You'll want to use MongoDB's [\$regex](https://docs.mongodb.com/manual/reference/operator/query/regex/) feature to search your database.
 - Add a [form](http://marksheet.io/html-forms.html) which allows a user to ask a new question.
 - Only questions with answers should be shown on the front page or included in search results.
 - Allow a user to indicate whether an answer was helpful using the **Yes** and **No** buttons. Their response should be reflected in the numbers included below each answer: "25/?? people found this helpful."
