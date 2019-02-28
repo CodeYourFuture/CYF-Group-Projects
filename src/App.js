@@ -1,17 +1,17 @@
-import React, { Component } from 'react';
-import Favourites from './components/Favourites';
-import RandomDog from './components/RandomDog';
-import DogBattle from './components/DogBattle';
-import Breeds from './components/Breeds';
-import './App.css';
+import React, { Component } from "react";
+import Favourites from "./components/Favourites";
+import RandomDog from "./components/RandomDog";
+import DogBattle from "./components/DogBattle";
+import Breeds from "./components/Breeds";
+import "./App.css";
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
       favouriteBreeds: [],
-      savedPhotos: [],
-    }
+      savedPhotos: []
+    };
   }
   render() {
     return (
