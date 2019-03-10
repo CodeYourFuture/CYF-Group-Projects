@@ -10,7 +10,7 @@
  *
  * @param {String} currentDay (Example: Wednesday)
  * @param {Array} daysOfWeek The array will be: ['Monday', 'Tuesday', Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday]
-* @return {Number}
+ * @return {Number}
  */
 function numberOfDaysUntilNextClass(currentDay, daysOfWeek) {
     // Return a number, like 1, 2, 3, etc.
@@ -24,7 +24,7 @@ function numberOfDaysUntilNextClass(currentDay, daysOfWeek) {
  * For example, if currentHour is 18 (6pm) and the
  * hourOfDinner is 19 (7pm), it should return 1.
  *
- * Hint: makee sure that your function will also work if the
+ * Hint: make sure that your function will also work if the
  * currentHour is after the hourOfDinner. For example, if it
  * is run at 11pm at night, it should return the number of
  * hours until dinner the next day.
