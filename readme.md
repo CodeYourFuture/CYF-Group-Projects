@@ -2,6 +2,8 @@
 
 In this project, you will work with your group to build a small time management tool. This tool will help calculate when your next class is, when your dinner break is, and how much time you have left to study.
 
+Once you have cloned, you can run the script with `node app.js`. Each time you run the script, it will run according to the current time. So if you run it at 11am and later at 6pm, you will get different results.
+
 ## First Steps
 
 1. Ask your project leader to set up a group repository based on this repository.
