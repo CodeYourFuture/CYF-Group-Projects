@@ -58,8 +58,8 @@ function showOver50(gradesArr) {
 
 /**
  * Write a function that outputs the average grade. Calculate your
- * average based on the number value of gradeArr,
- * i.e. [0.76, 0.45, ...].
+ * average based on the values of gradeArr,
+ * i.e. calculate average based on [0.76, 0.45, ...].
  * 
  * The function needs to return a NUMBER rounded to 3 decimal places.
  * 
