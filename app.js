@@ -10,11 +10,6 @@ const generateTable = require('./lib/tables');
 
 
 
-/**
- * The array below shows the grades of all 10 students in
- * ACME School of Code.
- */
-const gradesArr = [0.76, 0.45, 0.77, 0.55, 0.52, 0.63, 0.48, 0.66, 0.44, 0.59];
 
 /**
  * Write a function that converts grades into a string format
@@ -23,7 +18,7 @@ const gradesArr = [0.76, 0.45, 0.77, 0.55, 0.52, 0.63, 0.48, 0.66, 0.44, 0.59];
  * The function needs to return an ARRAY of strings.
  * 
  * @param {Array<number>} gradesArr (Example: [0.76, 0.45])
- * @returns {Array<string>} (Example: ['76/100', '45/100'])
+ * @return {Array<string>} (Example: ['76/100', '45/100'])
  */
 function gradeOutOfHundred(gradesArr) {
     
@@ -36,7 +31,7 @@ function gradeOutOfHundred(gradesArr) {
  * The function needs to return an ARRAY of strings.
  * 
  * @param {Array<*>} gradesArr (Example: [0.76, 0.45])
- * @returns {Array<string>} (Example: ['76/100', '45/100'])
+ * @return {Array<string>} (Example: ['76/100', '45/100'])
  */
 function sortGrades(gradesArr) {
     
@@ -50,7 +45,7 @@ function sortGrades(gradesArr) {
  * The function needs to return an ARRAY of strings.
  * 
  * @param {Array<*>} gradesArr (Example: [0.76, 0.45])
- * @returns {Array<string>} (Example: ['76/100', '45/100'])
+ * @return {Array<string>} (Example: ['76/100', '45/100'])
  */
 function showOver50(gradesArr) {
     
@@ -64,7 +59,7 @@ function showOver50(gradesArr) {
  * The function needs to return a NUMBER rounded to 3 decimal places.
  * 
  * @param {Array<*>} gradesArr (Example: [0.76, 0.45])
- * @returns {number}
+ * @return {number}
  */
 function calculateAverage(gradesArr) {
     
@@ -79,7 +74,14 @@ function calculateAverage(gradesArr) {
  * IGNORE THE FOLLOWING LINES
  * PLEASE DO NOT EDIT LINES BELOW
  */
-generateTable('Grades (x/100) in ACME School of Code', gradeOutOfHundred(gradesArr));
-generateTable('Sorted Grades (x/100) in ACME School of Code', sortGrades(gradesArr));
-generateTable('Passing Grades (x/100) in ACME School of Code', showOver50(gradesArr));
-generateTable('Average Grade (0.xxx) in ACME School of Code', calculateAverage(gradesArr));
+
+/**
+ * The array below shows the grades of all 10 students in
+ * ACME School of Code.
+ */
+const classGrades = [0.76, 0.45, 0.77, 0.55, 0.52, 0.63, 0.48, 0.66, 0.44, 0.59];
+
+generateTable('Grades (x/100) in ACME School of Code', gradeOutOfHundred(classGrades));
+generateTable('Sorted Grades (x/100) in ACME School of Code', sortGrades(classGrades));
+generateTable('Passing Grades (x/100) in ACME School of Code', showOver50(classGrades));
+generateTable('Average Grade (0.xxx) in ACME School of Code', calculateAverage(classGrades));
