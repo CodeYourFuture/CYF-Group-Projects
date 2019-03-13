@@ -39,16 +39,15 @@ function sortGrades(gradesArr) {
 
 /**
  * Write a function that outputs an array of grades that are
- * passing (grades that are more than 50/100). Output needs to
- * show grades in a string format out of 100, e.g. "76/100".
+ * passing (grades that are more than 0.50). 
  * 
- * The function needs to return an ARRAY of strings.
+ * The function needs to return an ARRAY of numbers.
  * 
  * @param {Array<*>} gradesArr (Example: [0.76, 0.45])
- * @return {Array<string>} (Example: ['76/100', '45/100'])
+ * @return {Array<string>} (Example: [0.76, 0.77])
  */
-function showOver50(gradesArr) {
-    
+function showPassingGrades(gradesArr) {
+
 }
 
 /**
@@ -63,6 +62,21 @@ function showOver50(gradesArr) {
  */
 function calculateAverage(gradesArr) {
     
+}
+
+/**
+ * Write a function that outputs the average PASSING grade,
+ * i.e. calculate average of grades that are more than 0.50
+ * 
+ * The function needs to return a NUMBER rounded to 3 decimal places.
+ * 
+ * Hint: some functions above can be reused here
+ * 
+ * @param {Array<*>} gradesArr (Example: [0.76, 0.45])
+ * @return {number}
+ */
+function calculateAveragePassingGrade(gradesArr) {
+
 }
 
 
@@ -83,5 +97,6 @@ const classGrades = [0.76, 0.45, 0.77, 0.55, 0.52, 0.63, 0.48, 0.66, 0.44, 0.59]
 
 generateTable('Grades (x/100) in ACME School of Code', gradeOutOfHundred(classGrades));
 generateTable('Sorted Grades (x/100) in ACME School of Code', sortGrades(classGrades));
-generateTable('Passing Grades (x/100) in ACME School of Code', showOver50(classGrades));
+generateTable('Passing Grades (0.xx) in ACME School of Code', showPassingGrades(classGrades));
 generateTable('Average Grade (0.xxx) in ACME School of Code', calculateAverage(classGrades));
+generateTable('Average Passing Grade (0.xxx) in ACME School of Code', calculateAveragePassingGrade(classGrades));
