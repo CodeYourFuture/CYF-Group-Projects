@@ -4,19 +4,24 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "precommit": "pretty-quick --staged --verbose"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/artze/group-project-jsf-grades.git"
+    "url": "git+https://github.com/CodeYourFuture/group-project-jsf-grades.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/artze/group-project-jsf-grades/issues"
+    "url": "https://github.com/CodeYourFuture/group-project-jsf-grades/issues"
   },
-  "homepage": "https://github.com/artze/group-project-jsf-grades#readme",
+  "homepage": "https://github.com/CodeYourFuture/group-project-jsf-grades#readme",
   "dependencies": {
     "cli-table3": "^0.5.1"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "prettier": "^1.16.4",
+    "pretty-quick": "^1.10.0"
   }
 }
