@@ -1,15 +1,17 @@
+/*
+  DO NOT EDIT THE LINE BELOW
+  -------------------------- */
 const generateTable = require("./lib/tables");
 
-/**
- * IGNORE THE LINES ABOVE
- * PLEASE DO NOT EDIT LINES ABOVE
- */
+/*
+  YOU MAY EDIT THE LINES BELOW
+  ---------------------------- */
 
 /**
  * Write a function that converts grades into a string format
- * that shows grade out of 100, e.g. "76/100".
+ * that shows each grade out of 100, e.g. "76/100".
  *
- * The function needs to return an ARRAY of strings.
+ * The function should return an ARRAY of strings.
  *
  * @param {Array<number>} gradesArr (Example: [0.76, 0.45])
  * @return {Array<string>} (Example: ['76/100', '45/100'])
@@ -18,55 +20,52 @@ function gradeOutOfHundred(gradesArr) {}
 
 /**
  * Write a function that sorts grades from highest to lowest
- * and shows grades in a string format like above, e.g. "76/100".
+ * and returns sorted grades in a string format like above,
+ * e.g. "76/100".
  *
- * The function needs to return an ARRAY of strings.
+ * The function should return an ARRAY of strings.
  *
- * @param {Array<*>} gradesArr (Example: [0.76, 0.45])
+ * @param {Array<Number>} gradesArr (Example: [0.76, 0.45])
  * @return {Array<string>} (Example: ['76/100', '45/100'])
  */
 function sortGrades(gradesArr) {}
 
 /**
- * Write a function that outputs an array of grades that are
- * passing (grades that are more than 0.50).
+ * Write a function that returns an array of grades that are
+ * higher than 0.50.
  *
- * The function needs to return an ARRAY of numbers.
+ * The function should return an ARRAY of numbers.
  *
- * @param {Array<*>} gradesArr (Example: [0.76, 0.45])
- * @return {Array<string>} (Example: [0.76, 0.77])
+ * @param {Array<Number>} gradesArr (Example: [0.76, 0.45])
+ * @return {Array<Number>} (Example: [0.76, 0.77])
  */
 function showPassingGrades(gradesArr) {}
 
 /**
- * Write a function that outputs the average grade. Calculate your
- * average based on the values of gradeArr,
- * i.e. calculate average based on [0.76, 0.45, ...].
+ * Write a function that returns the average grade.
  *
- * The function needs to return a NUMBER rounded to 3 decimal places.
+ * Calculate the average of all grades in gradesArr and return
+ * a NUMBER rounded to 3 decimal places.
  *
- * @param {Array<*>} gradesArr (Example: [0.76, 0.45])
- * @return {number}
+ * @param {Array<Number>} gradesArr (Example: [0.76, 0.45])
+ * @return {Number}
  */
 function calculateAverage(gradesArr) {}
 
 /**
- * Write a function that outputs the average PASSING grade,
- * i.e. calculate average of grades that are more than 0.50
+ * Write a function that returns the average PASSING grade.
  *
- * The function needs to return a NUMBER rounded to 3 decimal places.
+ * Calculate the average of all grades that are MORE THAN 0.50 and
+ * return a NUMBER rounded to 3 decimal places.
  *
- * Hint: some functions above can be reused here
- *
- * @param {Array<*>} gradesArr (Example: [0.76, 0.45])
- * @return {number}
+ * @param {Array<Number>} gradesArr (Example: [0.76, 0.45])
+ * @return {Number}
  */
 function calculateAveragePassingGrade(gradesArr) {}
 
-/**
- * IGNORE THE FOLLOWING LINES
- * PLEASE DO NOT EDIT LINES BELOW
- */
+/*
+  DO NOT EDIT BELOW THIS LINE
+  --------------------------- */
 
 /**
  * The array below shows the grades of all 10 students in
