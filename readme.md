@@ -45,6 +45,14 @@ These projects can be completed with only a basic understanding of HTML/CSS. The
 - [Changes on FAQ App](revisions-faq/readme.md) - Implement requested changes to a frequently asked questions app.
 - [Changes on Reviews App](revisions-reviews/readme.md) - Implement requested changes to a reviews app.
 
+### JavaScript Fundamentals
+
+These projects run on the command line and can be completed using only the fundamentals of JavaScript, such as booleans, strings, numbers, arrays, functions and conditionals.
+
+- [Grade Report](https://github.com/CodeYourFuture/group-project-jsf-grades) - Implement a grade reporting tool.
+- [Budget Management](https://github.com/CodeYourFuture/group-project-jsf-payments) - Implement a budget management tool.
+- [Time Management](https://github.com/CodeYourFuture/group-project-jsf-time) - Implement a time management tool.
+
 ### Server-less projects
 
 These projects can be completed without waiting for students to learn about React, Node or DB.
