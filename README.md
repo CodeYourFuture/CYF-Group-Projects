@@ -17,4 +17,6 @@ Once you have cloned the repository, you can run the script with `node app.js`.
 
 When you complete the project, we'll expect to be able to clone the `master` branch of your group repository, run `node app.js`, and get the correct output for each line.
 
+Once each task has been completed, you may notice that you run the same code for different tasks. As a group, discuss [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself). Can you improve your code so that you are not repeating yourself?
+
 Be sure to alert the mentors when you have finished so that we can review it.
