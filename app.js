@@ -1,3 +1,12 @@
+/*
+  DO NOT EDIT THE LINE BELOW
+  -------------------------- */
+const generateTable = require("./lib/tables");
+
+/*
+YOU MAY EDIT THE LINES BELOW
+---------------------------- */
+
 /**
  * Write a function that returns the number of days until
  * the next class on Saturday.
@@ -9,12 +18,11 @@
  * is run on a Sunday!
  *
  * @param {String} currentDay (Example: Wednesday)
- * @param {Array} daysOfWeek The array will be: ['Monday', 'Tuesday', Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday]
+ * @param {Array<String>} daysOfWeek The array will be: ['Monday', 'Tuesday', Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday]
  * @return {Number}
  */
 function numberOfDaysUntilNextClass(currentDay, daysOfWeek) {
-    // Return a number, like 1, 2, 3, etc.
-    return 0;
+  return -1;
 }
 
 /**
@@ -34,8 +42,7 @@ function numberOfDaysUntilNextClass(currentDay, daysOfWeek) {
  * @return {Number}
  */
 function hoursUntilNextDinner(currentHour, hourOfDinner) {
-    // Return a number, like 1, 2, 3, etc.
-    return 0;
+  return -1;
 }
 
 /**
@@ -47,12 +54,11 @@ function hoursUntilNextDinner(currentHour, hourOfDinner) {
  * 3am: [0, 1, 2, 3].
  *
  * @param {Number} currentHour (Example: 14)
- * @param {Array} hoursOfDay The array will be: [0, 1, 2, 3, ..., 14, 15, 16, ..., 23] (0 = midnight)
- * @return {Array}
+ * @param {Array<Number>} hoursOfDay The array will be: [0, 1, 2, 3, ..., 14, 15, 16, ..., 23] (0 = midnight)
+ * @return {Array<Number>}
  */
 function hoursPassedToday(currentHour, hoursOfDay) {
-    // Return an array with all of the hours that have passed already today
-    return [];
+  return [];
 }
 
 /**
@@ -64,12 +70,11 @@ function hoursPassedToday(currentHour, hoursOfDay) {
  * [21, 22, 23].
  *
  * @param {Number} currentHour (Example: 14)
- * @param {Array} hoursOfDay The array will be: [0, 1, 2, 3, ..., 14, 15, 16, ..., 23] (0 = midnight)
- * @return {Array}
+ * @param {Array<Number>} hoursOfDay The array will be: [0, 1, 2, 3, ..., 14, 15, 16, ..., 23] (0 = midnight)
+ * @return {Array<Number>}
  */
 function hoursAheadToday(currentHour, hoursOfDay) {
-    // Return an array with all of the hours remaining today
-    return [];
+  return [];
 }
 
 /**
@@ -89,39 +94,54 @@ function hoursAheadToday(currentHour, hoursOfDay) {
  * 8pm on Friday, you should return 15.
  *
  * @param {Number} currentHour (Example: 14)
- * @param {Array} hoursOfDay The array will be: [0, 1, 2, 3, ..., 14, 15, 16, ..., 23] (0 = midnight)
+ * @param {Array<Number>} hoursOfDay The array will be: [0, 1, 2, 3, ..., 14, 15, 16, ..., 23] (0 = midnight)
  * @param {String} currentDay (Example: Wednesday)
- * @param {Array} daysOfWeek The array will be: ['Monday', 'Tuesday', Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday]
+ * @param {Array<String>} daysOfWeek The array will be: ['Monday', 'Tuesday', Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday]
+ * @return {Number}
  */
 function hoursToStudy(currentHour, hoursOfDay, currentDay, daysOfWeek) {
-    // Return a number for the total number of hours until the next class
-    return 0;
+  return -1;
 }
 
-/**
- * Do not edit below this line
- */
-const daysOfWeek = [
-    'Monday',
-    'Tuesday',
-    'Wednesday',
-    'Thursday',
-    'Friday',
-    'Saturday',
-    'Sunday'
+/*
+  DO NOT EDIT BELOW THIS LINE
+  --------------------------- */
+
+const daysOfWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+const hoursOfDay = [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23
 ];
-const hoursOfDay = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23];
 const now = new Date();
-const currentDay = now.toLocaleDateString('en-US', {weekday: 'long'});
+const currentDay = now.toLocaleDateString("en-US", { weekday: "long" });
 const currentHour = now.getHours();
-console.log('Days until the next class: ' + numberOfDaysUntilNextClass(currentDay, daysOfWeek));
-console.log('Hours until next dinner at 7pm: ' + hoursUntilNextDinner(currentHour, 19));
-console.log('Hours passed today: ' + hoursPassedToday(currentHour, hoursOfDay));
-console.log('Hours ahead today: ' + hoursAheadToday(currentHour, hoursOfDay));
-const hoursLeft = hoursToStudy(currentHour, hoursOfDay, currentDay, daysOfWeek);
-if (hoursLeft !== false) {
-    console.log('Hours left to study: ' + hoursLeft);
-} else {
-    console.log('Hours left to study: ... (extra credit)');
-}
 
+generateTable("Schedule", [
+  { "Days until the next class": numberOfDaysUntilNextClass(currentDay, daysOfWeek) },
+  { "Hours until next dinner at 7pm": hoursUntilNextDinner(currentHour, 19) },
+  { "Hours passed today": hoursPassedToday(currentHour, hoursOfDay).join(", ") },
+  { "Hours ahead today": hoursAheadToday(currentHour, hoursOfDay).join(", ") },
+  { "Hours left to study": hoursToStudy(currentHour, hoursOfDay, currentDay, daysOfWeek) }
+]);
