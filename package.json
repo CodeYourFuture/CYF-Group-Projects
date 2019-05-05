@@ -1,0 +1,17 @@
+{
+  "name": "group-project-dom-payments",
+  "version": "1.0.0",
+  "description": "A group project for practicing JavaScript objects and DOM manipulation.",
+  "author": "CodeYourFuture",
+  "license": "ISC",
+  "scripts": {
+    "precommit": "pretty-quick --staged",
+    "serve": "live-server"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "husky": "^0.14.3",
+    "prettier": "^1.14.2",
+    "pretty-quick": "^1.6.0"
+  }
+}
