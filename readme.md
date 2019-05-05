@@ -53,6 +53,12 @@ These projects run on the command line and can be completed using only the funda
 - [Budget Management](https://github.com/CodeYourFuture/group-project-jsf-payments) - Implement a budget management tool.
 - [Time Management](https://github.com/CodeYourFuture/group-project-jsf-time) - Implement a time management tool.
 
+### JavaScript DOM
+
+These projects can be completed using JavaScript client-side fundamentals such as `fetch` and DOM manipulation, without any third-party libraries.
+
+- [Payments](https://github.com/CodeYourFuture/group-project-dom-payments) - Implement a payments tracking tool.
+
 ### Server-less projects
 
 These projects can be completed without waiting for students to learn about React, Node or DB.
