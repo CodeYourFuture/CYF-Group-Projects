@@ -4,9 +4,7 @@
   "description": "In this small project we will create a bookshelf that we can interact with.",
   "main": "bookshelf.solution.js",
   "dependencies": {},
-  "devDependencies": {
-    "jest": "21.2.1"
-  },
+  "devDependencies": {},
   "scripts": {
     "test": "jest"
   },
