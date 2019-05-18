@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "precommit": "pretty-quick --staged",
-    "serve": "live-server"
+    "serve": "node server"
   },
   "devDependencies": {
     "husky": "^2.3.0",
