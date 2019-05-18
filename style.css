@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  background: #f7fafc;
+}
+
+.container {
+  max-width: 50rem;
+  margin: 5rem auto;
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+  border: none;
+  border-radius: 3px;
+  box-shadow: none;
+}
+
+.button:hover {
+  background: #f7fafc;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: #276749;
+
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.header__title {
+  margin: 0;
+  padding: 0.5em 0;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.header__loader {
+  color: #276749;
+  padding: 0 1.4em;
+}
+
+.counts {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 0;
+  margin: auto;
+  text-align: center;
+}
+
+.counts__label {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.counts__amount {
+  font-size: 3rem;
+  line-height: 1.25em;
+  font-weight: 300;
+}
+
+.books__unread,
+.books__read {
+  padding: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+caption {
+  padding: 0.2rem 0.5rem;
+  font-weight: 700;
+  background: #edf2f7;
+  text-align: left;
+}
+
+tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+td,
+th {
+  padding: 0.25em 0.5em;
+  text-align: left;
+}
