@@ -10,7 +10,7 @@
     <main class="container">
       <header class="header">
         <h1 class="header__title">Bookshelf</h1>
-        <button class="button header__loader">Load</button>
+        <button id="loadButton" class="button header__loader">Load</button>
       </header>
 
       <section class="counts">
@@ -22,6 +22,12 @@
           <h2 class="counts__label">Read Books Count</h2>
           <div id="readCount" class="counts__amount">0</div>
         </div>
+      </section>
+
+      <section>
+        <h2 class="account__email">
+          Account Email: <span id="accountEmail"></span>
+        </h2>
       </section>
 
       <section class="books__unread">
