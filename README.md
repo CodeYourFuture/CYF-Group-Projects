@@ -3,6 +3,8 @@
 In this small project you will create a digital bookshelf to keep track of which
 books you have want to read and have read already.
 
+![Completed bookshelf app](./screenshot.png)
+
 Once you have cloned the repository, you can run the script with `npm run serve`.
 
 ## First Steps
