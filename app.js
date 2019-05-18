@@ -6,12 +6,14 @@
  * 2. Filter the books data to find books that are **not** marked as read
  * 3. Show the list of unread books in the "Unread Books" table. The book's
  *    title, author and publish date should be shown.
- * 4. Also filter the books data to find books that are marked as read
- * 5. Show the list of read books in the "Read Books" table
- * 6. Clicking on a book in the "Read Books" table should "star" it. Starred
+ * 4. Show the current number of unread books in the Unread Books Count
+ * 5. Also filter the books data to find books that are marked as read
+ * 6. Show the list of read books in the "Read Books" table and show the number
+ *    of read books in the Read Books Count
+ * 7. Clicking on a book in the "Read Books" table should "star" it. Starred
  *    books should appear with a yellow background. This can be applied by
  *    adding the `starred` class to the table row (`<tr>`) for each starred book
- * 7. **STRETCH GOAL** When a book is starred, send a POST request to the
+ * 8. **STRETCH GOAL** When a book is starred, send a POST request to the
  *    account.starUrl
  */
 
