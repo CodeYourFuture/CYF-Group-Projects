@@ -8,8 +8,7 @@
  *    the balance.
  * 2. Add the payments to the table. Each payment should show
  *    the date of the payment, its status (whether is pending or
- *    complete), the description, the amount, and the balance
- *    after that payment was completed.
+ *    complete), the description, and the amount.
  *
  *    Pending payments should appear with a pink background.
  *    This can be applied by adding the `pending` class to the
