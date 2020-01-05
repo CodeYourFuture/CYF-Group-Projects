@@ -1,24 +1,17 @@
 {
-  "name": "bookshelf-project",
+  "name": "group-project-dom-bookshelf",
   "version": "1.0.0",
-  "description": "In this small project we will create a bookshelf that we can interact with.",
-  "main": "bookshelf.solution.js",
-  "dependencies": {},
-  "devDependencies": {
-    "jest": "21.2.1"
-  },
-  "scripts": {
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/codeyourfuture/bookshelf-project.git"
-  },
-  "keywords": [],
-  "author": "Pete Thompson <me@petethompson.com> (http://petethompson.com/)",
+  "description": "A group project for practising JavaScript DOM manipulation and fetch requests",
+  "author": "CodeYourFuture",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/codeyourfuture/bookshelf-project/issues"
+  "scripts": {
+    "precommit": "pretty-quick --staged",
+    "serve": "node server"
   },
-  "homepage": "https://github.com/codeyourfuture/bookshelf-project#readme"
+  "devDependencies": {
+    "husky": "^2.3.0",
+    "live-server": "^1.2.1",
+    "prettier": "^1.17.1",
+    "pretty-quick": "^1.10.0"
+  }
 }

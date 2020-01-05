@@ -1,12 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
     <title>Bookshelf</title>
-</head>
-<body>
-    <script id="bookshelf-script" src="bookshelf.js"></script>
-</body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <h1 class="header__title">Bookshelf</h1>
+        <button id="loadButton" class="button header__loader">Load</button>
+      </header>
+
+      <section class="counts">
+        <div>
+          <h2 class="counts__label">Unread Books Count</h2>
+          <div id="unreadCount" class="counts__amount">0</div>
+        </div>
+        <div>
+          <h2 class="counts__label">Read Books Count</h2>
+          <div id="readCount" class="counts__amount">0</div>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="account__email">
+          Account Email: <span id="accountEmail"></span>
+        </h2>
+      </section>
+
+      <section class="books__unread">
+        <table>
+          <caption>
+            Unread Books
+          </caption>
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Author</th>
+              <th>Publish Date</th>
+            </tr>
+          </thead>
+          <tbody id="unreadBooksList">
+            <!--
+            <tr>
+              <td>The Catcher in the Rye</td>
+              <td>J. D. Salinger</td>
+              <td>1951-07-16</td>
+            </tr>
+            -->
+          </tbody>
+        </table>
+      </section>
+
+      <section class="books__read">
+        <table>
+          <caption>
+            Read Books
+          </caption>
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Author</th>
+              <th>Publish Date</th>
+            </tr>
+          </thead>
+          <tbody id="readBooksList">
+            <!--
+            <tr>
+              <td>To Kill a Mockingbird</td>
+              <td>Harper Lee</td>
+              <td>1960-07-11</td>
+            </tr>
+            -->
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
 </html>
