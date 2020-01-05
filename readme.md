@@ -58,6 +58,7 @@ These projects run on the command line and can be completed using only the funda
 These projects can be completed using JavaScript client-side fundamentals such as `fetch` and DOM manipulation, without any third-party libraries.
 
 - [Payments](https://github.com/CodeYourFuture/group-project-dom-payments) - Implement a payments tracking tool.
+- [Bookshelf](https://github.com/CodeYourFuture/bookshelf-project) - Implement a bookshelf tracking tool.
 
 ### Server-less projects
 
