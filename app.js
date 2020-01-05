@@ -69,7 +69,7 @@ function fetchBooks() {
  * Then assign the account.unreadBooks variable to the unreadBooks array you
  * just created.
  *
- * Finally the call the render function and pass the unreadBooks array to it.
+ * Finally the call the render function and pass the account object to it.
  */
 
 // Write your processBooks function here
