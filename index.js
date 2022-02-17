@@ -1,12 +1,16 @@
 const mainContent = document.getElementById("main-content");
 
-  function makeCard( btnstyle){
-
+ const images= ['https://via.placeholder.com/150','https://via.placeholder.com/150','https://via.placeholder.com/150']
+  function makeCard( btnstyle,j){
+    
      for (var j = 0; j < 3; j++) {
+         
+          
        const section = document.createElement("section");
-       section.className = "section";
+       section.className ="section"
        const p = document.createElement("p");
        const img = document.createElement("img");
+       img.src=images[j]
        const btn = document.createElement("button");
        btn.className = btnstyle;
        p.innerHTML = "this is text";
@@ -16,29 +20,35 @@ const mainContent = document.getElementById("main-content");
        section.appendChild(btn);
        mainContent.appendChild(section);
      }
-  }
+    }
 
-  const images =["url1","url2","url3"]
+    function fourthCard(btnstyle) {
+      const section = document.createElement("section");
+      section.className = "side-section";
+      const p = document.createElement("p");
+      const img = document.createElement("img");
+      img.src = images[3];
+      const btn = document.createElement("button");
+      btn.className = btnstyle;
+      p.innerHTML = "this is text";
+
+      section.appendChild(img);
+      section.appendChild(p);
+      section.appendChild(btn);
+      mainContent.appendChild(section);
+    }
+
+     
+ 
+
+
 
 function makeSection() {
   for ( i = 0; i < 3; i++) {
        if (i === 0) {
 
         makeCard();
-        //    for( var j=0; j<3; j++){
-        //  const section = document.createElement("section");
-        //  section.className ="section"
-        //  const p = document.createElement("p");
-        //  const img = document.createElement("img");
-        //  const btn = document.createElement("button");
-        //  p.innerHTML = "this is text";
-
-        //  section.appendChild(img);
-        //  section.appendChild(p);
-        //  section.appendChild(btn);
-        //  mainContent.appendChild(section);
-        //    }
-
+       
          // this is the side-div wrapper
          const sidDive = document.createElement("div");
          //this is the social network div
@@ -56,29 +66,37 @@ function makeSection() {
          const calender = document.createElement("p");
          calender.innerHTML = " calender";
 
-         const centralDiv = document.createElement("div");
-         const centralDivP = document.createElement("p");
-         centralDivP.innerHTML = "this is central div";
-
+         
          sidDive.appendChild(socialNetwork);
          sidDive.appendChild(churityJump);
          sidDive.appendChild(calenderDiv);
+
+         const centralDiv = document.createElement("div");
+         centralDiv.className="central-div";
+         const centralDivP = document.createElement("p");
+         centralDivP.innerHTML = "this is central div";
+
+
 
          socialNetwork.appendChild(socialNetworkP);
          churityJump.appendChild(socialNetworkP);
          calenderDiv.appendChild(pastEvent);
          calenderDiv.appendChild(calender);
          centralDiv.appendChild(centralDivP);
-         mainContent.appendChild(centralDiv);
          mainContent.appendChild(sidDive);
+         mainContent.appendChild(centralDiv);
        }
        else if( i===1){
 
-          makeCard("noDisplay");
+          makeCard( "noDisplay");
+          fourthCard("noDisplay");
+        
            }
        else{
            
          makeCard();
+         fourthCard();
+        
        }
     }
   }
