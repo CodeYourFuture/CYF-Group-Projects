@@ -12,8 +12,7 @@ const mainContent = document.getElementById("main-content");
        "this is first text",
        "this is second test",
        "this is third text",
-       "this is fourth text"
-     ],
+      ],
    },
 
    {
