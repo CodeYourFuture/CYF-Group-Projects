@@ -1,36 +1,83 @@
 const mainContent = document.getElementById("main-content");
 
- const images= ['https://via.placeholder.com/150','https://via.placeholder.com/150','https://via.placeholder.com/150']
-  function makeCard( btnstyle,j){
+ const data = [
+   {
+     images: [
+       "https://via.placeholder.com/150/FF0000/808080/?text=Down.com",
+       "https://via.placeholder.com/150/FF0000/808080/?text=Down.com",
+       "https://via.placeholder.com/150/FF0000/808080/?text=Down.com",
+      
+     ],
+     text: [
+       "this is first text",
+       "this is second test",
+       "this is third text",
+       "this is fourth text"
+     ],
+   },
+
+   {
+     images: [
+       "https://via.placeholder.com/150/FFFF00/000000/?text=WebsiteBuilders.com",
+       "https://via.placeholder.com/150/FFFF00/000000/?text=WebsiteBuilders.com",
+       "https://via.placeholder.com/150/FFFF00/000000/?text=WebsiteBuilders.com",
+       "https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net",
+     ],
+     text: [
+       "this is first text",
+       "this is second text",
+       "this is third text",
+       "this is fourth text"
+     ],
+   },
+
+   {
+     images: [
+       "https://via.placeholder.com/150/0000FF/FFFFFF/?text=Digital.com",
+       "https://via.placeholder.com/150/0000FF/FFFFFF/?text=Digital.com",
+       "https://via.placeholder.com/150/0000FF/FFFFFF/?text=Digital.com+",
+       "https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net",
+     ],
+     text: [
+       "this is first text",
+       "this is second text",
+       "this is third text",
+       "this is fourth text",
+     ],
+   },
+ ];
+
+
+
+  function makeCard( btnstyle){
     
-     for (var j = 0; j < 3; j++) {
-         
-          
-       const section = document.createElement("section");
+    data.forEach((item, i) => {
+     const section = document.createElement("section");
        section.className ="section"
        const p = document.createElement("p");
        const img = document.createElement("img");
-       img.src=images[j]
+       img.src = data[i].images[i];
        const btn = document.createElement("button");
        btn.className = btnstyle;
-       p.innerHTML = "this is text";
+       p.innerHTML = data[i].text[i];
 
        section.appendChild(img);
        section.appendChild(p);
        section.appendChild(btn);
        mainContent.appendChild(section);
-     }
+     });
     }
 
-    function fourthCard(btnstyle) {
+    function fourthCard(btnstyle,i) {
+
       const section = document.createElement("section");
       section.className = "side-section";
       const p = document.createElement("p");
       const img = document.createElement("img");
-      img.src = images[3];
+      img.src = data[i].images[3];
       const btn = document.createElement("button");
       btn.className = btnstyle;
-      p.innerHTML = "this is text";
+      p.innerHTML = data[i].text[3];
 
       section.appendChild(img);
       section.appendChild(p);
@@ -89,13 +136,13 @@ function makeSection() {
        else if( i===1){
 
           makeCard( "noDisplay");
-          fourthCard("noDisplay");
+          fourthCard("noDisplay",1);
         
            }
        else{
            
          makeCard();
-         fourthCard();
+         fourthCard("btnstyle",2);
         
        }
     }
