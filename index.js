@@ -6,13 +6,12 @@ const mainContent = document.getElementById("main-content");
        "https://via.placeholder.com/150/FF0000/808080/?text=Down.com",
        "https://via.placeholder.com/150/FF0000/808080/?text=Down.com",
        "https://via.placeholder.com/150/FF0000/808080/?text=Down.com",
-      
      ],
      text: [
-       "this is first text",
-       "this is second test",
-       "this is third text",
-      ],
+       "this is first text this is first textthis is first text this is first textthis is first text this is first textthis is first text this is first text",
+       "this is second test this is second test this is second test this is second test this is second test this is second test this is second test this is second tes",
+       "this is third text this is third text this is third text this is third textthis is third text this is third text this is third text",
+     ],
    },
 
    {
@@ -23,10 +22,10 @@ const mainContent = document.getElementById("main-content");
        "https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net",
      ],
      text: [
-       "this is first text",
-       "this is second text",
-       "this is third text",
-       "this is fourth text"
+       "this is first text this is first textthis is first text this is first textthis is first text this is first textthis is first text this is first text",
+       "this is second test this is second test this is second test this is second test this is second test this is second test this is second test this is second tes",
+       "this is third text this is third text this is third text this is third textthis is third text this is third text this is third text",
+       "this is fourth text this is fourth text this is fourth text this is fourth text this is fourth text this is fourth text this is fourth text",
      ],
    },
 
@@ -38,10 +37,10 @@ const mainContent = document.getElementById("main-content");
        "https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net",
      ],
      text: [
-       "this is first text",
-       "this is second text",
-       "this is third text",
-       "this is fourth text",
+       "this is first text this is first textthis is first text this is first textthis is first text this is first textthis is first text this is first text",
+       "this is second test this is second test this is second test this is second test this is second test this is second test this is second test this is second tes",
+       "this is third text this is third text this is third text this is third textthis is third text this is third text this is third text",
+       "this is fourth text this is fourth text this is fourth text this is fourth text this is fourth text this is fourth text this is fourth text",
      ],
    },
  ];
@@ -52,14 +51,16 @@ const mainContent = document.getElementById("main-content");
     
     data.forEach((item, i) => {
      const section = document.createElement("section");
-       section.className ="section"
+       section.className ="card"
        const p = document.createElement("p");
        const img = document.createElement("img");
        img.src = data[i].images[i];
        img.className ="card-img";
        const btn = document.createElement("button");
        btn.className = btnstyle;
-       p.innerHTML = data[i].text[i];
+       btnstyle ? (p.innerHTML = data[i].text[i]): (p.innerHTML = data[i].text[i] + " <hr>");
+         
+       
 
        section.appendChild(img);
        section.appendChild(p);
@@ -71,14 +72,16 @@ const mainContent = document.getElementById("main-content");
     function fourthCard(btnstyle,i) {
 
       const section = document.createElement("section");
-      section.className = "side-section";
+      section.className = "side-card";
       const p = document.createElement("p");
       const img = document.createElement("img");
       img.src = data[i].images[3];
       img.className="fourth-img"
       const btn = document.createElement("button");
       btn.className = btnstyle;
-      p.innerHTML = data[i].text[3];
+       btnstyle && i === 1
+         ? (p.innerHTML = data[i].text[i])
+         : (p.innerHTML = data[i].text[i] + " <hr>");
 
       section.appendChild(img);
       section.appendChild(p);
@@ -122,7 +125,7 @@ function makeSection() {
          const centralDiv = document.createElement("div");
          centralDiv.className="central-div";
          const centralDivP = document.createElement("p");
-         centralDivP.innerHTML = "this is central div";
+         centralDivP.innerHTML ="<b>Lorem ipsum dolor sit amet.</b><br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, sequi.</p>"
 
 
 
