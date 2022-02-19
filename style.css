@@ -108,11 +108,18 @@ body{
     margin-top: 0px;
 
 }
-.card,
-.side-card,
-.btnDiv {
-border: solid gray 1px;
+.card,.side-card {
+
+    display: grid;
+    grid-template-rows: 6fr 1fr ;
+    border: solid gray 1px;
+    
 }
+ .pDiv{
+     border-bottom: solid gray 1px;
+     
+ }
+
 
 .card-img{
   width: 100%;
@@ -123,6 +130,7 @@ border: solid gray 1px;
 .fourth-img{
      width: 100%;
      height: auto;
+    
 }
 
 .noDisplay {

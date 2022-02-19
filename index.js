@@ -52,19 +52,24 @@ const mainContent = document.getElementById("main-content");
     data.forEach((item, i) => {
      const section = document.createElement("section");
        section.className ="card"
+       const pDiv = document.createElement("div")
+      btnstyle ? (pDiv.className = "any") : (pDiv.className = "pDiv");
+       const btnDiv = document.createElement("div");
+       btnDiv.className = "btnDiv";
+       
        const p = document.createElement("p");
        const img = document.createElement("img");
        img.src = data[i].images[i];
        img.className ="card-img";
        const btn = document.createElement("button");
        btn.className = btnstyle;
-       btnstyle ? (p.innerHTML = data[i].text[i]): (p.innerHTML = data[i].text[i] + " <hr>");
-         
-       
-
-       section.appendChild(img);
-       section.appendChild(p);
-       section.appendChild(btn);
+    
+      p.innerHTML = data[i].text[i];
+      section.appendChild(pDiv);
+       section.appendChild(btnDiv);
+       pDiv.appendChild(img);
+       pDiv.appendChild(p);
+       btnDiv.appendChild(btn);
        mainContent.appendChild(section);
      });
     }
@@ -73,20 +78,47 @@ const mainContent = document.getElementById("main-content");
 
       const section = document.createElement("section");
       section.className = "side-card";
+      const pDiv = document.createElement("div");
+      pDiv.className = "pDiv";
+      const btnDiv = document.createElement("div");
+     btnstyle && i===1 ? (pDiv.className = "any") : (pDiv.className = "pDiv");
+
       const p = document.createElement("p");
       const img = document.createElement("img");
       img.src = data[i].images[3];
-      img.className="fourth-img"
+      img.className = "card-img";
       const btn = document.createElement("button");
       btn.className = btnstyle;
-       btnstyle && i === 1
-         ? (p.innerHTML = data[i].text[i])
-         : (p.innerHTML = data[i].text[i] + " <hr>");
-
-      section.appendChild(img);
-      section.appendChild(p);
-      section.appendChild(btn);
+      
+      p.innerHTML = data[i].text[i];
+      section.appendChild(pDiv);
+      section.appendChild(btnDiv);
+      pDiv.appendChild(img);
+      pDiv.appendChild(p);
+      btnDiv.appendChild(btn);
       mainContent.appendChild(section);
+
+      // const section = document.createElement("section");
+      // section.className = "side-card";
+      // const p = document.createElement("p");
+      // const img = document.createElement("img");
+      //   img.src = data[i].images[3];
+      //   img.className = "fourth-img";
+      // const pDiv = document.createElement("div");
+     
+  
+      // const btn = document.createElement("button");
+      // const btnDiv = document.createElement("div");
+      // btn.className = btnstyle;
+      // p.innerHTML = data[i].text[i]
+        
+
+      // pDiv.appendChild(img);
+      // pDiv.appendChild(p);
+      // section.appendChild(pDiv);
+      // btnDiv.appendChild(btn);
+      //  section.appendChild(btnDiv);
+      // mainContent.appendChild(section);
     }
 
      
