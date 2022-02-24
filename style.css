@@ -4,39 +4,69 @@ body{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width:95vw
+    width:100%;
+    margin: 0px;
+    padding: 0px;
     
 
 }
+  
 
 
  .header {
      display: flex;
-     background-color: #0956af;
-     justify-content: space-around;
+     justify-content:center;
      position: relative;
-    width: 100vw;
+     width:100%;
 }
 
 .logo-img {
     margin-bottom: -15px;
-     width: 100%;
-     height: auto;
+    width:65%;
+    height: auto;
+}
+.headerSocialMedia {
+ width:35%;
+ display: flex;
+ flex-direction: column;
+ justify-items: flex-start;
+}
+#socialmidia {
+ justify-self:flex-start
+
+}
+.button{
+    background-color: inherit;
+   border:solid 1px white;
+    color: white;
+    padding: 0.75rem;
+    align-self: center;
+    width: 12rem;
+    margin-top: 1rem;
+
+    
+}
+.nav-bar{
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
 }
  #nav-links {
      display: flex;
-     font-size: small;
-     /* justify-content: center; */
-      width: 100%;
+     font-size: 0.700em;
+     justify-content: center;
+     max-width: 100;
+
       height: auto;
+     
 
 
  }
 
- a:hover {
+  ul a:hover {
      background-color: #5e3c80;
      color: aliceblue;
-     padding: 14px 14px
+     
  }
 
  a:active {
@@ -44,7 +74,7 @@ body{
  }
  a {
      text-decoration: none;
-     margin: 13px;
+     margin: 1rem;
  }
 
  ul {
@@ -57,7 +87,7 @@ body{
 
 
  #big-img {
-     width:100vw;
+  width:100vw;
   height: auto;
   max-height: 400px;
   }
@@ -79,22 +109,59 @@ body{
 
    }
    #welcomPar {
-   
+     width:85%;
      margin-left: 2rem;
    }
+   .mainDiv {
+       display: grid;
+     grid-template-columns: 1fr 1fr;
+       border: solid gray 1px;
+       height: 50%;
+       align-content: space-between;
+     
+     }
+
+    
+     .calender,.event{
+     
+      text-align:center;
+      height: 40%;
+
+      
+     }
+   .charity {
+       height: 80%;
+      
+      
+       grid-column: 1/3;
+       /* border: solid gray 1px;
+       padding-bottom: 1.5rem; */
+     } 
 
 
+    .event{
+        border:  solid gray 1px;
+        
+        
+    ;
+          
+         
+        }
+  
+   /* .pastEvent:after {
+      content: "";
+      display: block;
+      width: 1px;
+      height: 35px;
+      background: gray;
+      right: 50%;
+      left:50%;
+      top: 0%;
+      position: absolute;
+      display: block;
+    } */
 
-
-
-
-
-
-
-
-
-
-
+     
 
 #main-content {
     display: grid;
@@ -103,10 +170,83 @@ body{
     background-color: rgb(189, 243, 243);
     width:70vw;
     text-align: center;
-  
+    justify-content: center;
     padding: 4rem 2rem 1rem 2rem;
     margin-top: 0px;
 
+}
+
+.titleDiv {
+    display: flex;
+    flex-direction: rows;
+     grid-column: 1/5;
+   background-color:#5e3c80;
+  align-items: center;
+  justify-content: space-between;
+   font-size: 0.900em;
+    
+     width:100%;
+      padding:0px;
+}
+
+ 
+ #museumNews{
+     /* margin-right: 35rem; */
+      width: fit-content;
+ }
+ .part1-line1 {
+    background-color: #383939;
+    width:65%;
+    height:1px;
+    align-self: center;
+   
+    margin-right: 2rem; 
+}
+
+.part1-line2 {
+    background-color: #383939;
+    width: 5%;
+    height: 1px;
+    align-self: center;
+ }
+
+.part2-line1
+ {
+     background-color: #383939;
+     width:18.5%;
+     height: 1px;
+     align-self: center;
+ }
+
+.part2-line2{
+     background-color: #383939;
+     width:22%;
+     height: 1px;
+     align-self: center;
+}
+
+.part3-line2{
+    display:none;
+}
+.part3-line1{
+    background-color: #383939;
+    width: 42rem;
+    height: 1px;
+    align-self: center;
+      margin-right:2 rem;
+}
+ 
+
+.titleButton{
+   
+    font-size:0.600em;
+    display:block;
+    height: 2rem;
+    height: 1.5rem;
+     background-color: #325249;
+      color:aliceblue;
+    width:6rem;
+    margin-right:0 2rem 0 1rem;
 }
 .card,.side-card {
 
@@ -144,5 +284,14 @@ body{
  color: white;
  margin-top: 1rem;
  margin-bottom: 2rem;
+  width:100%;
 
+}
+
+@media screen and (max-width: 640px){
+    #main-content{
+        display: flex;
+        flex-direction:column;
+    }
+    
 }
