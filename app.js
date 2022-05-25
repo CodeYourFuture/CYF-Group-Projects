@@ -27,7 +27,7 @@ var account = {
   booksUrl: "/data/books.json",
   starUrl: "/star",
   unreadBooks: [],
-  readBooks: []
+  readBooks: [],
 };
 
 /**
