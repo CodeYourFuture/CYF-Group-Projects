@@ -5,7 +5,8 @@
   "author": "CodeYourFuture",
   "license": "MIT",
   "scripts": {
-    "precommit": "pretty-quick --staged",
+    "prepare": "husky install",
+    "format": "pretty-quick --staged",
     "serve": "node server"
   },
   "devDependencies": {
