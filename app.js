@@ -85,8 +85,7 @@ function fetchBooks() {
  * as an example.
  */
 function render(account) {
-  const accountEmailNode = document.createTextNode(account.accountEmail);
-  document.querySelector("#accountEmail").appendChild(accountEmailNode);
+  document.querySelector("#accountEmail").innerText = account.accountEmail;
 
   // Add your implementation here
 }
