@@ -1,6 +1,8 @@
 # Bookshelf App
 
-In this project, you will build a bookshelf app. The app structure and design have been put in place. To complete the app, you'll need to add functionality so that read and unread books can be shown and the count updated.
+In this project, you will build a bookshelf app. The app structure and design are done. To complete the app, add functionality to: 
+- show both read and unread books
+- update the count of read books.
 
 ## First Steps
 
