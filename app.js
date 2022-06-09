@@ -22,12 +22,12 @@
  *
  * Do not edit this code.
  */
-var account = {
+const account = {
   accountEmail: "example@codeyourfuture.io",
   booksUrl: "/data/books.json",
   starUrl: "/star",
   unreadBooks: [],
-  readBooks: []
+  readBooks: [],
 };
 
 /**
@@ -38,7 +38,7 @@ var account = {
  *
  * You may edit this code.
  */
-var loadButton = document.querySelector("#loadButton");
+const loadButton = document.querySelector("#loadButton");
 
 /**
  * Complete the fetchBooks function so that it calls the fetch function. The
@@ -85,8 +85,7 @@ function fetchBooks() {
  * as an example.
  */
 function render(account) {
-  var accountEmailNode = document.createTextNode(account.accountEmail);
-  document.querySelector("#accountEmail").appendChild(accountEmailNode);
+  document.querySelector("#accountEmail").innerText = account.accountEmail;
 
   // Add your implementation here
 }
