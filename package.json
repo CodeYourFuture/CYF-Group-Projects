@@ -1,0 +1,26 @@
+{
+  "name": "group-projects",
+  "version": "1.0.0",
+  "description": "A collection of group projects that can be used to teach collaboration and real-life project management skills to CodeYourFuture students.",
+  "main": "main.js",
+  "dependencies": {
+    "bootstrap-icons": "^1.8.1",
+    "fullcalendar": "^5.10.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohammedal-abdulhamid/group-projects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohammedal-abdulhamid/group-projects/issues"
+  },
+  "homepage": "https://github.com/Mohammedal-abdulhamid/group-projects#readme"
+  
+  
+}
