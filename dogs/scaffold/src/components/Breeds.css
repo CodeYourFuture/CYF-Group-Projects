@@ -1,0 +1,35 @@
+.Breeds {
+  margin: 4rem auto;
+  max-width: 50rem;
+  border: 1px solid #ddd;
+  border-bottom-width: 4px;
+  border-top: 0;
+  box-shadow: 0 -4px 0 #efd67f;
+  padding: 1.5rem;
+}
+
+.Breeds-title {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+}
+
+.Breeds-image {
+  max-width: 300px;
+  height: auto;
+  border-radius: 0.5em;
+}
+
+.Breeds-button {
+  display: inline-block;
+  border: none;
+  border-radius: 3px;
+  background: #49bae0;
+  padding: 0.5em 1em;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Breeds-button:hover,
+.Breeds-button:focus {
+  background: #54cbf3;
+}

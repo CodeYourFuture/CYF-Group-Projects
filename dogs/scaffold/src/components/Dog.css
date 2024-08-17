@@ -1,0 +1,20 @@
+.Dog-image {
+  max-width: 300px;
+  height: auto;
+  border-radius: 0.5em;
+}
+
+.Dog-button {
+  display: inline-block;
+  border: none;
+  border-radius: 3px;
+  background: #49bae0;
+  padding: 0.5em 1em;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Dog-button:hover,
+.Dog-button:focus {
+  background: #54cbf3;
+}
