@@ -1,0 +1,23 @@
+<div class="products">
+	{{#each products}}
+		<div class="product{{#if this.isTopRated}} product--top{{/if}}">
+			<div class="product__thumbnail product__thumbnail--{{this.urlPath}}"></div>
+			<div class="product__details">
+				<h2 class="product__title">{{this.title}}</h2>
+				<div class="product__price">${{this.price}}</div>
+				{{#if this.rating}}
+					<div class="product__rating">
+						Rating: {{this.rating}}
+					</div>
+				{{/if}}
+				{{#if this.commentCount}}
+					<a href="/products/{{this.urlPath}}" class="product__reviews">{{this.commentCount}} comments</a>
+				{{/if}}
+				<div class="product__buttons">
+					<button class="button button--primary">Buy</button>
+					<a href="/products/{{this.urlPath}}" class="button">View Details</a>
+				</div>
+			</div>
+		</div>
+	{{/each}}
+</div>

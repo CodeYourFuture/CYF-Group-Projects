@@ -1,0 +1,40 @@
+.CalcPayment {
+  margin: 4rem auto;
+}
+
+.CalcPayment-label {
+  argin-bottom: 1rem;
+}
+
+.CalcPayment-control select,
+.CalcPayment-control input {
+  margin-right: 0.5em;
+  padding: 0 0.5em;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+}
+
+.CalcPayment-amount {
+  max-width: 6em;
+}
+
+.CalcPayment-description {
+  max-width: 20em;
+}
+
+.CalcPayment-result {
+  display: inline-block;
+  margin: 0 0.5em;
+  padding: 0 0.5em;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  background: #eee;
+}
+
+.CalcPayment-calculate {
+  margin-top: 1rem;
+}

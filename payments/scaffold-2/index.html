@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Account Details</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="site-wrapper">
+      <div class="site-header">
+        <h1 class="site-header__title">Account Details</h1>
+        <button id="loadButton" class="button">Load</button>
+      </div>
+      <div class="balance">
+        <h2 class="balance__label">Current Balance</h2>
+        <div id="balanceAmount" class="balance__amount">£0.00</div>
+      </div>
+      <div class="account">
+        <h2 class="account__number">Account Number: <span id="accountNumber"></span></h2>
+      </div>
+      <div class="month">
+        <table>
+          <caption class="month__label">Current Month at a Glance</caption>
+          <tr>
+            <th scope="row">Total Income</th>
+            <td id="totalIncome">£0.00</td>
+          </tr>
+          <tr>
+            <th scope="row">Most Valuable Payment</th>
+            <td id="mostValuablePayment">£0.00</td>
+          </tr>
+        </table>
+      </div>
+      <div class="payments">
+        <table>
+          <caption class="payments__label">Payments</div>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Status</th>
+              <th>Description</th>
+              <th>Amount</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="paymentsList">
+            <!-- Example
+            <tr>
+              <td>2019-03-02</td>
+              <td>Completed</td>
+              <td>Lorem ipsum dolor sit ament</td>
+              <td>£1.25</td>
+              <td></td>
+            </tr>
+            -->
+          </tbody>
+          <tfoot>
+            <tr class="pending-balance">
+              <th scope="row" colspan="3">Balance after pending payments completed</th>
+              <td colspan="2" id="pendingBalance">£0.00</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

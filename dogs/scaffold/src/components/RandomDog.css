@@ -1,0 +1,39 @@
+.RandomDog {
+  margin: 4rem auto;
+  max-width: 30rem;
+  border: 1px solid #ddd;
+  border-bottom-width: 4px;
+  border-top: 0;
+  box-shadow: 0 -4px 0 #c1ef7f;
+  padding: 1.5rem;
+}
+
+.RandomDog-title {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+}
+
+.RandomDog-image {
+  max-width: 300px;
+  height: auto;
+  border-radius: 0.5em;
+}
+
+.RandomDog-button {
+  display: inline-block;
+  border: none;
+  border-radius: 3px;
+  background: #49bae0;
+  padding: 0.5em 1em;
+  color: #fff;
+  cursor: pointer;
+}
+
+.RandomDog-button:hover,
+.RandomDog-button:focus {
+  background: #54cbf3;
+}
+
+.RandomDog-button + .RandomDog-button {
+  margin-left: 2rem;
+}

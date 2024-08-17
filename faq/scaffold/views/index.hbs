@@ -1,0 +1,32 @@
+<form class="search">
+	<label class="screen-reader" for="search-input">
+		Search
+	</label>
+	<input class="search__input" type="search" name="search-input" id="search-input" placeholder="What's your question?">
+	<button type="submit" class="button button--primary">
+		Search
+	</button>
+</form>
+{{#if entries}}
+	<ul class="entry-list">
+		{{#each entries}}
+			<li class="entry">
+				<h2 class="entry__question">
+					{{this.question}}
+				</h2>
+				<div class="entry__answer">
+					{{{this.answer}}}
+				</div>
+				<div class="entry__help">
+					{{this.helpful}}/?? people found this helpful. Was this entry helpful?
+					<button class="button button--small">Yes</button>
+					<button class="button button--small">No</button>
+				</div>
+			</li>
+		{{/each}}
+	</ul>
+{{/if}}
+<div class="add">
+	<p class="add__prompt">Still haven't found your answer? Why not ask a question?</p>
+	<button class="button button--primary">Ask Question</button>
+</div>

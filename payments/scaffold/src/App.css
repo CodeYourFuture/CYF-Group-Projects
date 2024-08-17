@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background: linear-gradient(to right, #00c9ff, #92fe9d);
+  padding: 2rem;
+}
+
+.App-title {
+  font-size: 1.5rem;
+  margin: 0;
+}
