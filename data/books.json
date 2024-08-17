@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "The Catcher in the Rye",
+    "author": "J. D. Salinger",
+    "publishDate": "1951-07-16",
+    "isRead": false
+  },
+  {
+    "id": 2,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "publishDate": "1960-07-11",
+    "isRead": true
+  },
+  {
+    "id": 3,
+    "title": "The Grapes of Wrath",
+    "author": "John Steinbeck",
+    "publishDate": "1939-04-14",
+    "isRead": true
+  },
+  {
+    "id": 4,
+    "title": "The Great Gatsby",
+    "author": "F Scott Fitzgerald",
+    "publishDate": "1925-04-10",
+    "isRead": true
+  },
+  {
+    "id": 5,
+    "title": "Moby-Dick",
+    "author": "Herman Melville",
+    "publishDate": "1851-10-18",
+    "isRead": false
+  },
+  {
+    "id": 6,
+    "title": "Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "publishDate": "1884-12-10",
+    "isRead": false
+  },
+  {
+    "id": 7,
+    "title": "Alice's Adventures in Wonderland",
+    "author": "Lewis Carroll",
+    "publishDate": "1865-11-26",
+    "isRead": false
+  },
+  {
+    "id": 8,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "publishDate": "1813-01-28",
+    "isRead": false
+  },
+  {
+    "id": 9,
+    "title": "To the Lighthouse",
+    "author": "Virginia Woolf",
+    "publishDate": "1927-05-05",
+    "isRead": false
+  },
+  {
+    "id": 10,
+    "title": "Nineteen Eighty-Four",
+    "author": "George Orwell",
+    "publishDate": "1949-06-08",
+    "isRead": false
+  }
+]
