@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Messaging Application | Name Badge</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="site-wrapper">
+      <header class="site-header">
+        <h1 class="site-header__title">Messages</h1>
+        <a href="#" class="button">My Archives</a>
+      </header>
+      <div class="messages">
+        <div class="message">
+          <div class="message__author">
+            Anthony
+          </div>
+          <p class="message__content">
+            Who is available to meet this week to work on our group project?
+          </p>
+          <div class="message__time">
+            6:48pm
+          </div>
+        </div>
+        <div class="message">
+          <div class="message__author">
+            Habiba
+          </div>
+          <p class="message__content">
+            I can meet on Tuesday and Wednesday after 4.
+          </p>
+          <div class="message__time">
+            7:12pm
+          </div>
+        </div>
+        <div class="message message--self">
+          <div class="message__author">
+            You
+          </div>
+          <p class="message__content">
+            I can't do Tuesday but I can do Wednesday.
+          </p>
+          <div class="message__time">
+            7:20pm
+          </div>
+        </div>
+      </div>
+      <form class="add-message">
+        <input type="text" class="add-message__input" placeholder="What would you like to say?" />
+        <button class="button">Send</button>
+      </form>
+    </div>
+  </body>
+</html>
