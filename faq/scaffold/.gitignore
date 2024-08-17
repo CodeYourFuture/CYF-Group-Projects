@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
@@ -21,10 +19,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-=======
-node_modules
->>>>>>> dom-payments/master
-=======
+
 # Logs
 logs
 *.log
@@ -52,7 +47,8 @@ build/Release
 # Dependency directory
 # https://docs.npmjs.com/cli/shrinkwrap#caveats
 node_modules
+*/*/node_modules
 
 # Debug log from npm
 npm-debug.log
->>>>>>> faq/master
+
