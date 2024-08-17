@@ -8,9 +8,8 @@
 }
 
 .App-header {
-  background-color: #467cb1;
+  background: linear-gradient(to right, #00c9ff, #92fe9d);
   padding: 2rem;
-  color: white;
 }
 
 .App-title {
