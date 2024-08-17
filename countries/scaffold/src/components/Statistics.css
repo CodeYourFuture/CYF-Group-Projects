@@ -1,0 +1,7 @@
+.Statistics {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 4rem 0;
+  background: #eee;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "group-project-revisions-shop",
+  "version": "1.0.0",
+  "description": "Shopping application group project",
+  "author": "CodeYourFuture",
+  "license": "ISC",
+  "scripts": {
+    "precommit": "pretty-quick --staged --verbose",
+    "serve": "live-server"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "husky": "^0.14.3",
+    "prettier": "^1.16.4",
+    "pretty-quick": "^1.10.0"
+  }
+}

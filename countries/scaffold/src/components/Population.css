@@ -1,0 +1,49 @@
+.Population {
+  margin: 4rem auto;
+  max-width: 50rem;
+  text-align: left;
+}
+
+.Population-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  background: #74c293;
+  color: #fff;
+}
+
+.Population-header h2 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.Population-header input {
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 2px;
+  background: #fff;
+}
+
+.Population table {
+  border: 1px solid #74c293;
+  border-top: none;
+  border-collapse: collapse;
+  box-shadow: 0 1px 0 #74c293;
+  width: 100%;
+}
+
+.Population tr {
+  border-bottom: 1px solid #74c293;
+}
+
+.Population th,
+.Population td {
+  padding: 1em;
+}
+
+.Population tfoot {
+  font-weight: bold;
+}

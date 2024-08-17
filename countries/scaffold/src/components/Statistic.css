@@ -1,0 +1,16 @@
+.Statistic {
+  margin: 0;
+}
+
+.Statistic-number {
+  display: block;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.Statistic-label {
+  display: block;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: normal;
+}
